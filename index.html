@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<!--
+Copyright 2011 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+Author: Eric Bidelman (ericbidelman@chromium.org)
+        Arne Roomann-Kurrik (kurrik@chromium.org)
+-->
+<html>
+<head>
+  <title>Responsive Web Design: One site for every screen</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/prettify.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet/less" type="text/css" href="css/slide-presentation.less">
+  <link rel="stylesheet/less" type="text/css" href="css/slide-content.less">
+</head>
+  <body>
+    <script type="text/html">
+      <!DOCTYPE html>
+      <html>
+        <style>h1 { font:18pt Arial; color: #ccc; text-align: center; }</style>
+        <body>
+          <h1>loading...</h1>
+        </body>
+      </html>
+    </script>
+
+    <div id="content" class="hidden">
+      <div id="bg-pattern" class="background"></div>
+      <div id="bg-white" class="background"></div>
+      <div id="bg-black" class="background"></div>
+      <div id="bg-google-blue" class="background"></div>
+      <div id="bg-blueprint" class="background"></div>
+      <div id="bg-google-darkblue" class="background"></div>
+      <div id="bg-google-green" class="background"></div>
+      <div id="bg-google-yellow" class="background"></div>
+      <div id="bg-google-red" class="background"></div>
+      <div id="bg-binary" class="background"></div>
+      <div id="bg-file" class="background"></div>
+      <div id="bg-clutter" class="background"></div>
+      <div id="bg-filecabinets" class="background"></div>
+      <div id="bg-audio" class="background"></div>
+      <div id="bg-declarative" class="background"></div>
+      <div id="bg-drawline" class="background"></div>
+      <div id="bg-degree" class="background"></div>
+
+      <div id="bg_sinatra_01" class="background"></div>
+      <div id="bg_linen" class="background"></div>
+      <div id="bg_01" class="background"></div>
+      <div id="bg_striped_blue" class="background"></div>
+      <div id="bg_striped_violet" class="background"></div>
+      <div id="bg_striped_grey" class="background"></div>
+
+<div id="bg_ruby_what_is" class="background"></div>
+<div id="bg_ruby_light" class="background"></div>
+<div id="bg_ruby_functional" class="background"></div>
+<div id="bg_ruby_elegant" class="background"></div>
+<div id="bg_ruby_dynamic" class="background"></div>
+<div id="bg_ruby_reflective" class="background"></div>
+<div id="bg_ruby_os" class="background"></div>
+<div id="bg_ruby_flexible" class="background"></div>
+<div id="bg_ruby_language" class="background"></div>
+
+
+<div id="bg_ror_1" class="background"></div>
+<div id="bg_scene" class="background"></div>
+<div id="bg_metal" class="background"></div>
+<div id="bg-about_me" class="background"></div>
+
+<div id="bg-01" class="background"></div>
+<div id="bg-02" class="background"></div>
+<div id="bg-03" class="background"></div>
+<div id="bg-04" class="background"></div>
+<div id="bg-05" class="background"></div>
+<div id="bg-06" class="background"></div>
+<div id="bg-07" class="background"></div>
+<div id="bg-08" class="background"></div>
+<div id="bg-09" class="background"></div>
+<div id="bg-10" class="background"></div>
+<div id="bg-11" class="background"></div>
+<div id="bg-12" class="background"></div>
+<div id="bg-13" class="background"></div>
+<div id="bg-14" class="background"></div>
+<div id="bg-15" class="background"></div>
+<div id="bg-16" class="background"></div>
+<div id="bg-17" class="background"></div>
+<div id="bg-18" class="background"></div>
+<div id="bg-19" class="background"></div>
+<div id="bg-20" class="background"></div>
+<div id="bg-21" class="background"></div>
+<div id="bg-22" class="background"></div>
+<div id="bg-23" class="background"></div>
+<div id="bg-24" class="background"></div>
+<div id="bg-25" class="background"></div>
+<div id="bg-26" class="background"></div>
+<div id="bg-27" class="background"></div>
+<div id="bg-28" class="background"></div>
+<div id="bg-29" class="background"></div>
+<div id="bg-30" class="background"></div>
+<div id="bg-31" class="background"></div>
+<div id="bg-32" class="background"></div>
+<div id="bg-33" class="background"></div>
+<div id="bg-34" class="background"></div>
+<div id="bg-35" class="background"></div>
+<div id="bg-36" class="background"></div>
+<div id="bg-37" class="background"></div>
+<div id="bg-38" class="background"></div>
+<div id="bg-39" class="background"></div>
+<div id="bg-40" class="background"></div>
+<div id="bg-41" class="background"></div>
+<div id="bg-42" class="background"></div>
+<div id="bg-43" class="background"></div>
+<div id="bg-44" class="background"></div>
+<div id="bg-45" class="background"></div>
+<div id="bg-46" class="background"></div>
+<div id="bg-47" class="background"></div>
+<div id="bg-48" class="background"></div>
+<div id="bg-49" class="background"></div>
+
+
+<!=========================================== The Beginning ===================================================
+ *
+ * Let's Go, Slides
+ *
+-->
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * slide001 | Preflight
+ *
+-->
+<div class="slide transparent centercontents" id="slide-preflight"  data-backgroundid="bg_01">
+  <section class="white_text_large">
+    <h2>Controls</h2>
+    <ul>
+      <li>Space or <span class="key">&larr;</span> / <span class='key'>&rarr;</span> to move around</li>
+      <li><span class="key">Ctrl/Command</span> / <span class='key'>–</span> or <span class='key'>+</span> to zoom in and out if slides don’t fit</li>
+      <li><span class="key">N</span> to show/hide notes <span class="key">H</span> to highlight elements</li>
+    </ul>
+    <hr>
+      If things look good, press <span class="key">→</span> to move on.
+  </section>
+  
+  <br><br><br><br><br><br><br><br><br><br>
+</div>
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Title
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-02">
+  <!-- TODO: fix background, fix text -->
+  
+  <div data-build>
+    <section data-auto style="background:none">
+    <span style="margin-left:130px">
+      <div class="topmic">
+        <h1 style="margin-left:150px;margin-top:130px;font-size:75px;font-family:'Cabin Sketch';text-shadow: btack 1px 2px 2px; color:white">Responsive Web Design:</h1>
+      </div>
+      <span>
+        <h1 style="margin-left:150px;margin-top:80px;font-size:70px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">One site for every screen</h1>
+      </span>
+    </span>
+    </section>
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------- Slide 4 -------------------------------------------------------
+ *
+ * 
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg_scene">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+    <span style="margin-left:250px">
+    <video width="620" height="480" controls="controls" >
+        <source src="videos/rwd_2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    </span>
+      <h1 style="margin-left:240px">Advetrise</h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Title
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-about_me">
+  <!-- TODO: add about me page -->
+  
+  <div data-build>
+    <section data-auto style="background:none">
+    <span style="margin-left:130px">
+      <div class="topmic">
+        <h1 style="margin-left:10px;margin-top:0px;font-size:65px;font-family:'Permanent Marker';text-shadow: black 1px 2px 2px; color:white">Alexander Mekhovov</h1>
+        <h1 style="margin-left:230px;margin-top:-30px;font-size:35px;font-family:'Lobster';text-shadow: black 1px 2px 2px; color:grey">”I fell in love with Ruby on Rails”</h1>
+        <h1 style="margin-left:10px;margin-top:80px;font-size:30px;font-family:'Droid Serif';text-shadow: black 1px 2px 2px; color:white">Ruby on Rails Developer at <a href="http://www.softserveinc.com" target="_blank">SoftServe</a>.</h1>
+
+        <h1 style="margin-left:10px;margin-top:80px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Organizer and Speaker at <br><a href="http://pacemaker.pp.ua" target="_blank">Pacemaker - IT Conference</a>.</h1>
+
+        <h1 style="margin-left:10px;margin-top:0px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Drive Ruby Courses in <br><a href="http://softserve.ua/en/university/it-academy" target="_blank">SoftServe IT Academy</a>.</h1>
+
+          <h1 style="margin-left:10px;margin-top:0px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Involved in creating and growing <br><a href="http://www.facebook.com/RailsWay" target="_blank">Ruby Community</a> in Ukraine.</h1>
+
+          <p>{ links goes here.. }</p>
+      </div>
+    </span>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Today's Agenda
+ *
+-->
+<div class="slide centercontents" id="slide-agenda" data-backgroundid="bg-01">
+  <header>Agenda</header>
+  <section>
+    <div class="item">
+      <img style="max-width:70px" src="images/topic_1.png" />
+      <span class="grintheme" style="margin-bottom: 30px;">What is <b>Responsive Web</b>? </span>
+    </div>
+    <div class="item">
+      <img style="max-width:70px" src="images/topic_2.png" />
+      <span class="redtheme" style="margin-bottom: 30px;"><b>The ingredients</b></span>
+    </div>
+    <div class="item">
+      <img style="max-width:70px" src="images/topic_3.png" />
+      <span class="bluetheme" style="margin-bottom: 30px;"><b>Mobile</b> First</span>
+    </div>
+    <div class="item">
+      <img style="max-width:70px" src="images/topic_4.png" />
+      <span class="purpletheme" style="margin-bottom: 30px;"><b>Topic:</b> 4</span>
+    </div>
+    <div class="item">
+      <img style="max-width:70px" src="images/topic_5.png" />
+      <span class="" style="margin-bottom: 30px;"><b>Tools</b></span>
+    </div>
+
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
+      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"> What is <b>Responsive Web Design</b>?</span></h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:orange">
+      The Idea
+    </h1>
+    <h1 style="font-size:55px;font-family:'';text-shadow: #111 2px 4px; color:white">
+      The basic idea of responsive web design is that a website should
+      gracefully “respond” to the device it’s being viewed on.
+</h1>
+  </section>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:orange">
+      Why?
+    </h1>
+    <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:white">
+      “Day by day, the number of devices, platforms, 
+      and browsers that need to work with your site grows. 
+      Responsive web design represents a fundamental shift 
+      in how we’ll build websites for the decade to come.”
+      </h1>
+      <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:gray">
+      - Jeffrey Veen
+      </h1>
+  </section>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:orange">
+      How?
+    </h1>
+    <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:white">
+      Create one version of the site design,
+      code & content that responds to the
+      limitations of the environment (NOT THE DEVICE!)
+      it’s viewed in.
+      </h1>
+      
+  </section>
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:white">
+        ...you put water in a cup, it becomes the
+        cup; You put water into a bottle it becomes
+        the bottle; You put it in a teapot it becomes
+        the teapot. Now water can flow or it can
+        crash. Be water, my friend.
+      </h1>
+      <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:gray">
+      - Bruce Lee
+      </h1>
+  </section>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/02.jpg" />
+  </section>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/01.jpg" />
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
+      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>The ingredients</b></span></h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:white"><b>3 core ingredients:</b></h1>
+    <div style="font-size:110%; color:#fff" class="shadow">
+      <h1>-> <span class="mark_red">Fluid Grids</span></h1>
+      <h1>-> <span class="mark_green">Flexible Images</span></h1>
+      <h1>-> <span class="mark_blue">Media Queries</span></h1>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
+      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Fluid Grids</b></span></h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/03.jpg" />
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
+      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Flexible Images</b></span></h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
+      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Media Queries</b></span></h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark" data-auto>
+      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
+      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Mobile</b> First</span></h1>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/04.jpg" />
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents" data-backgroundid="bg-01">
+  <section >
+    <div style="font-size:110%; color:#fff" class="shadow">
+      <h1><span class="mark_red">Mobile first</span> is the process</h1>
+      <h1>of starting with the <span class="mark_green">minimalist</span> amount of design,</h1>
+      <h1>then progressivly enhancing as more screen space</h1>
+      <h1>and capability becomes avaliable.</h1>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide -------------------------------------------------------
+ *
+ * 5.8. Links
+ *
+-->
+<div class="slide centercontents">
+  <header>Links</header>
+
+  <section style="font-size: 28px">
+    <ul>
+      <li><a href="http://rwd.pp.ua" target="_blank">http://rwd.pp.ua</a></li>
+      <li><a href="https://github.com/mekhovov/rwd_presentation" target="_blank">https://github.com/mekhovov/rwd_presentation</a></li>
+      <li><a href="http://www.htmlfivewow.com/">http://www.htmlfivewow.com</a></li>
+    </ul>
+  </section>
+
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * QUESTIONS
+ *
+-->
+
+<div class="slide transparent image" data-backgroundid="bg-02">
+  <div data-build>
+    <section data-auto style="background:none">
+    <span style="margin-left:130px">
+      <!-- <img src="images/sinatra_metal.png" style="height:500px;margin-top:150px"> -->
+      <div class="topmic">
+        <h1 style="margin-left:330px;margin-top:200px;font-size:55px;font-family:'Bad Script';text-shadow: #111 2px 4px; color:orange">QUESTIONS ?</h1>
+      </div>
+    </span>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!=========================================== The End ===================================================
+ *
+ * No more Slides
+ *
+-->
+
+    </div>
+    <div id="overlay"></div>
+
+    <script src="js/libs/less-1.0.41.min.js" async></script>
+    <script src="js/prettify/prettify.js" async></script>
+    <script src="js/libs/glMatrix-0.9.5.min.js" async></script>
+    <script src="js/config.js" defer></script>
+    <!--<script src="socket.io/socket.io.js" defer></script>-->
+    <script src="js/libs/yepnope.1.0.1-min.js" defer></script>
+    <script src="js/slide-presentation.js" defer></script>
+    <script src="js/slide-content.js" defer></script>
+
+
+
+<script type="text/javascript">
+
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-30673614-1']);
+  // _gaq.push(['_trackPageview']);
+
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+
+</script>
+
+
+    <!--[if IE]>
+    <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+    <![endif]-->
+    <div id="background"></div>
+    <div id="stage"></div>
+  </body>
+</html>
+

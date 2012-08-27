@@ -1,0 +1,1 @@
+h1. Responsive Web Design: one site for many devices
