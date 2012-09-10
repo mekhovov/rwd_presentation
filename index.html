@@ -23,10 +23,12 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="chrome=1">
   <link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" href="css/prettify.css">
   <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet/less" type="text/css" href="css/slide-presentation.less">
   <link rel="stylesheet/less" type="text/css" href="css/slide-content.less">
+  <link rel="stylesheet/less" type="text/css" href="css/style.css">
 </head>
   <body>
     <script type="text/html">
@@ -200,7 +202,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
         Your browser does not support the video tag.
     </video>
     </span>
-      <h1 style="margin-left:240px">Advetrise</h1>
+      <h1 style="margin-left:240px">Responsive Web Design</h1>
     </section>
   </div>
 </div>
@@ -222,17 +224,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
     <section data-auto style="background:none">
     <span style="margin-left:130px">
       <div class="topmic">
-        <h1 style="margin-left:10px;margin-top:0px;font-size:65px;font-family:'Permanent Marker';text-shadow: black 1px 2px 2px; color:white">Alexander Mekhovov</h1>
-        <h1 style="margin-left:230px;margin-top:-30px;font-size:35px;font-family:'Lobster';text-shadow: black 1px 2px 2px; color:grey">”I fell in love with Ruby on Rails”</h1>
-        <h1 style="margin-left:10px;margin-top:80px;font-size:30px;font-family:'Droid Serif';text-shadow: black 1px 2px 2px; color:white">Ruby on Rails Developer at <a href="http://www.softserveinc.com" target="_blank">SoftServe</a>.</h1>
-
-        <h1 style="margin-left:10px;margin-top:80px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Organizer and Speaker at <br><a href="http://pacemaker.pp.ua" target="_blank">Pacemaker - IT Conference</a>.</h1>
-
-        <h1 style="margin-left:10px;margin-top:0px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Drive Ruby Courses in <br><a href="http://softserve.ua/en/university/it-academy" target="_blank">SoftServe IT Academy</a>.</h1>
-
-          <h1 style="margin-left:10px;margin-top:0px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Involved in creating and growing <br><a href="http://www.facebook.com/RailsWay" target="_blank">Ruby Community</a> in Ukraine.</h1>
-
-          <p>{ links goes here.. }</p>
+        <h1 style="margin-left:10px;margin-top:0px;font-size:65px;font-family:'Permanent Marker';text-shadow: black 1px 2px 2px; color:white">  
       </div>
     </span>
     </section>
@@ -265,10 +257,10 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
       <img style="max-width:70px" src="images/topic_3.png" />
       <span class="bluetheme" style="margin-bottom: 30px;"><b>Mobile</b> First</span>
     </div>
-    <div class="item">
+    <!-- <div class="item">
       <img style="max-width:70px" src="images/topic_4.png" />
       <span class="purpletheme" style="margin-bottom: 30px;"><b>Topic:</b> 4</span>
-    </div>
+    </div> -->
     <div class="item">
       <img style="max-width:70px" src="images/topic_5.png" />
       <span class="" style="margin-bottom: 30px;"><b>Tools</b></span>
@@ -293,9 +285,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-01">
   <div data-build>
-    <section class="bottomWide dark" data-auto>
-      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
-      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"> What is <b>Responsive Web Design</b>?</span></h1>
+    <section class="bottomWide dark topic" data-auto>
+      <img src="images/topic_1.png" />
+      What is Responsive Web Design ?
     </section>
   </div>
 </div>
@@ -305,6 +297,33 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Defining responsive web design</header>
+
+      The term responsive web design was coined by Ethan Marcotte. In his seminal List Apart article (http://www.alistapart.com/articles/responsive-web-design/) he consolidated three existing techniques (flexible grid layout, flexible images,
+      and media and media queries) into one unified approach and named it responsive web design. The term is often used to infer the same meaning as a number of
+      other descriptions such as fluid design, elastic layout, rubber layout, liquid design, adaptive layout, cross-device design, and flexible design.
+  </section>
+</div>
+
+
+
+
+
+
+
 
 
 <!--------------------------------------- Slide  -------------------------------------------------------
@@ -312,19 +331,19 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * 
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
-  <section >
-    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:orange">
-      The Idea
-    </h1>
-    <h1 style="font-size:55px;font-family:'';text-shadow: #111 2px 4px; color:white">
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>The Idea</header>
+
       The basic idea of responsive web design is that a website should
       gracefully “respond” to the device it’s being viewed on.
-</h1>
   </section>
 </div>
-
-
 
 
 
@@ -335,24 +354,24 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * 
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
-  <section >
-    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:orange">
-      Why?
-    </h1>
-    <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:white">
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+                If you think you need to create a "mobile" version of your website—think again! A responsive web design provides one design that looks great on smart phone, desktop, and everything in-between. It will effortlessly respond to the size of the user's screen, providing the best experience possible for both today's and tomorrow's devices.
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>Why?</header>
+
       “Day by day, the number of devices, platforms, 
       and browsers that need to work with your site grows. 
+      <br><br>
       Responsive web design represents a fundamental shift 
       in how we’ll build websites for the decade to come.”
-      </h1>
-      <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:gray">
-      - Jeffrey Veen
-      </h1>
+      <div class='author'>- Jeffrey Veen </div>
+      
   </section>
 </div>
-
-
 
 
 
@@ -363,17 +382,68 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * 
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
-  <section >
-    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:orange">
-      How?
-    </h1>
-    <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:white">
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>Mobile vs. Responsive</header>
+
+      • Mobile Design is designing for devices.<br>
+      • Responsive Design is designing for context.
+  </section>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               need ?
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>How?</header>
+
       Create one version of the site design,
       code & content that responds to the
       limitations of the environment (NOT THE DEVICE!)
       it’s viewed in.
-      </h1>
+      
+  </section>
+</div>
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here.. }
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>Why?</header>
+
+      “...you put water in a cup, it becomes the cup; <br>
+      You put water into a bottle it becomes the bottle; <br>
+      You put it in a teapot it becomes the teapot. <br>
+      Now water can flow or it can crash. <br>
+      Be water, my friend.”
+      <div class='author'>- Bruce Lee </div>
       
   </section>
 </div>
@@ -383,6 +453,38 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <section >
+    <img class="img_screen" src="images/_tmp_/02.jpg" />
+  </section>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <section >
+    <img class="img_screen" src="images/_tmp_/01.jpg" />
+  </section>
+</div>
+
+
+
+
+
+
+
+
 
 
 <!--------------------------------------- Slide  -------------------------------------------------------
@@ -390,18 +492,138 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * 
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark topic" data-auto>
+      <img src="images/topic_1.png" />
+      The ingredients
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>3 core ingredients:</header>
+
+      • Fluid Grids <br>
+      • Flexible Images <br>
+      • Media Queries <br>
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-01">
+  <div data-build>
+    <section class="bottomWide dark topic" data-auto>
+      <img src="images/topic_1.png" />
+      Fluid Grids
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Fluid Grids</header>
+
+      The old fixed layout vs. liquid layout debate
+        <hr>
+        • A fluid layout does not mean a table based layout.<br>
+        • Instead of based on pixels, your layouts are percentage based.<br>
+        • Allows for your site to adapt to screen sizes in between the ones you’re targeting
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Fluid Grids</header>
+
+      How do I find the percentage value for my elements?
+        <hr>
+        • Begin with a pixel based layout. These pixels will the basis for your percentage calculations.<br>
+        • Divide the target pixel value by the pixel value of the parent. Don’t forget margins and padding.<br>
+        • Add a comment of your original calculation. (this will save you)
+  </section>
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents slide-text " data-backgroundid="bg-01">
   <section >
-    <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:white">
-        ...you put water in a cup, it becomes the
-        cup; You put water into a bottle it becomes
-        the bottle; You put it in a teapot it becomes
-        the teapot. Now water can flow or it can
-        crash. Be water, my friend.
-      </h1>
-      <h1 style="font-size:45px;font-family:'';text-shadow: #111 2px 4px; color:gray">
-      - Bruce Lee
-      </h1>
+    <img class="img_screen"  src="images/_tmp_/05.png" />
   </section>
 </div>
 
@@ -415,7 +637,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent centercontents" data-backgroundid="bg-01">
   <section >
-    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/02.jpg" />
+    <img class="img_screen" src="images/_tmp_/06.png" />
   </section>
 </div>
 
@@ -429,51 +651,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent centercontents" data-backgroundid="bg-01">
   <section >
-    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/01.jpg" />
-  </section>
-</div>
-
-
-
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * 
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-01">
-  <div data-build>
-    <section class="bottomWide dark" data-auto>
-      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
-      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>The ingredients</b></span></h1>
-    </section>
-  </div>
-</div>
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * 
- *
--->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
-  <section >
-    <h1 style="font-size:65px;font-family:'';text-shadow: #111 2px 4px; color:white"><b>3 core ingredients:</b></h1>
-    <div style="font-size:110%; color:#fff" class="shadow">
-      <h1>-> <span class="mark_red">Fluid Grids</span></h1>
-      <h1>-> <span class="mark_green">Flexible Images</span></h1>
-      <h1>-> <span class="mark_blue">Media Queries</span></h1>
-    </div>
+    <img class="img_screen" src="images/_tmp_/03.jpg" />
   </section>
 </div>
 
@@ -489,13 +667,40 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-01">
   <div data-build>
-    <section class="bottomWide dark" data-auto>
-      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
-      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Fluid Grids</b></span></h1>
+    <section class="bottomWide dark topic" data-auto>
+      <img src="images/topic_1.png" />
+      Flexible Images
     </section>
   </div>
 </div>
 
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Flexible Images</header>
+
+      • Images are not given a defined height and width in the HTML<br>
+        • Images are sized based on the width of it’s parent container <br>
+        • Images are defined with a width of 100% in the CSS. <br>
+        • This also applies to video, embed and object tags
+  </section>
+</div>
 
 
 
@@ -506,15 +711,27 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * ToDo: fix
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <section >
-    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/03.jpg" />
+    <img class="img_screen" src="images/_tmp_/07.png" />
   </section>
 </div>
 
 
 
 
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * ToDo: fix
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <section >
+    <img class="img_screen" src="images/_tmp_/08.png" />
+  </section>
+</div>
+
+
 
 
 <!--------------------------------------- Slide  -------------------------------------------------------
@@ -524,9 +741,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-01">
   <div data-build>
-    <section class="bottomWide dark" data-auto>
-      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
-      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Flexible Images</b></span></h1>
+    <section class="bottomWide dark topic" data-auto>
+      <img src="images/topic_1.png" />
+      Media Queries
     </section>
   </div>
 </div>
@@ -536,25 +753,6 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * 
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-01">
-  <div data-build>
-    <section class="bottomWide dark" data-auto>
-      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
-      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Media Queries</b></span></h1>
-    </section>
-  </div>
-</div>
-
-
-
-
-
-
 
 
 
@@ -566,9 +764,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-01">
   <div data-build>
-    <section class="bottomWide dark" data-auto>
-      <h1><img style="max-width:90px; margin-bottom: -10px;" src="images/topic_1.png" />
-      <span class="" style="font-size:65px;font-family:'Bad Script';text-shadow: #111 2px 4px;"><b>Mobile</b> First</span></h1>
+    <section class="bottomWide dark topic" data-auto>
+      <img src="images/topic_1.png" />
+      Mobile First
     </section>
   </div>
 </div>
@@ -583,12 +781,11 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * ToDo: fix
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <section >
-    <img style="max-width:100%; margin-bottom: -10px;" src="images/_tmp_/04.jpg" />
+    <img class="img_screen" src="images/_tmp_/04.jpg" />
   </section>
 </div>
-
 
 
 
@@ -603,14 +800,19 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * 
  *
 -->
-<div class="slide transparent centercontents" data-backgroundid="bg-01">
-  <section >
-    <div style="font-size:110%; color:#fff" class="shadow">
-      <h1><span class="mark_red">Mobile first</span> is the process</h1>
-      <h1>of starting with the <span class="mark_green">minimalist</span> amount of design,</h1>
-      <h1>then progressivly enhancing as more screen space</h1>
-      <h1>and capability becomes avaliable.</h1>
-    </div>
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               To name just a few! However, as Mr. Marcotte and others have eloquently argued, a truly responsive methodology is actually more than merely altering the layout of a site based upon viewport sizes. Instead, it is to invert our entire current approach to web design. Instead of beginning with a fixed width desktop site design and scaling it down and re-flowing the content for smaller viewports, we should design for the smallest viewport first and then progressively enhance the design and content for larger viewports.
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Mobile first is the process</header>
+
+      of starting with the <span class="mark_green">minimalist</span> amount of design, <br>
+      then progressivly enhancing as more screen space  <br>
+      and capability becomes avaliable. <br>
   </section>
 </div>
 

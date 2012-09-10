@@ -332,8 +332,10 @@
   background: url('/images/bg_i_know_2.jpg');
 }
 #bg-01 {
-  .background-size;
-  background: url('/images/bg-01.jpg');
+  /*.background-size;*/
+  .background-size(inherit);
+  /*background: url('/images/bg-01.jpg');*/
+  background: url('/images/ios-linen.jpg') repeat;
 }
 #bg-02 {
   .background-size(stretch);
@@ -571,6 +573,13 @@ body {
 .with-notes .note {
   height: 170px;
   margin-top: 50px;
+}
+
+
+.note > section {
+  font-size: 14px;
+  color: white;
+  text-shadow: none;
 }
 
 .note {
