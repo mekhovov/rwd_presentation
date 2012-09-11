@@ -216,7 +216,6 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  * Title
  *
 -->
-
 <div class="slide transparent image" data-backgroundid="bg-about_me">
   <!-- TODO: add about me page -->
   
@@ -224,7 +223,17 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
     <section data-auto style="background:none">
     <span style="margin-left:130px">
       <div class="topmic">
-        <h1 style="margin-left:10px;margin-top:0px;font-size:65px;font-family:'Permanent Marker';text-shadow: black 1px 2px 2px; color:white">  
+        <h1 style="margin-left:10px;margin-top:0px;font-size:65px;font-family:'Permanent Marker';text-shadow: black 1px 2px 2px; color:white">Alexander Mekhovov</h1>
+        <h1 style="margin-left:230px;margin-top:-30px;font-size:35px;font-family:'Lobster';text-shadow: black 1px 2px 2px; color:grey">”I fell in love with Ruby on Rails”</h1>
+        <h1 style="margin-left:10px;margin-top:80px;font-size:30px;font-family:'Droid Serif';text-shadow: black 1px 2px 2px; color:white">Ruby on Rails Developer at <a href="http://www.softserveinc.com" target="_blank">SoftServe</a>.</h1>
+
+        <h1 style="margin-left:10px;margin-top:80px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Organizer and Speaker at <br><a href="http://pacemaker.pp.ua" target="_blank">Pacemaker - IT Conference</a>.</h1>
+
+        <h1 style="margin-left:10px;margin-top:0px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Drive Ruby Courses in <br><a href="http://softserve.ua/en/university/it-academy" target="_blank">SoftServe IT Academy</a>.</h1>
+
+          <h1 style="margin-left:10px;margin-top:0px;font-size:35px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">Involved in creating and growing <br><a href="http://www.facebook.com/RailsWay" target="_blank">Ruby Community</a> in Ukraine.</h1>
+
+          <p>{ links goes here.. }</p>
       </div>
     </span>
     </section>
@@ -305,16 +314,20 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Впервые термин отзывчивый веб-дизайн (Responsive Web Design) был использован 25 мая 2010 года в одноименной статье Итана Маркотта, опубликованной в журнале A List Apart.
+              
+              The term responsive web design was coined by Ethan Marcotte. In his seminal List Apart article (http://www.alistapart.com/articles/responsive-web-design/) he consolidated three existing techniques (flexible grid layout, flexible images,
+              and media and media queries) into one unified approach and named it responsive web design. The term is often used to infer the same meaning as a number of
+              other descriptions such as fluid design, elastic layout, rubber layout, liquid design, adaptive layout, cross-device design, and flexible design.
+
+              Нельзя говорить о адаптивном дизайне, и не упомянуть при этом его создателя, Итана Маркотта (Ethan Marcotte). Если вы не читали его конструктивную статью о адаптивном веб-дизайне, то мы настоятельно рекомендуем вам ознакомиться с ней (серьезно, она обязательна к прочтению). В этой статье Итан обсуждает все ключевые идеи, формирующие адаптивный веб-дизайн; и что на самом деле представляет собой это свойство дизайна с технической точки зрения. Это не просто кусочек технологии, это больше набор техник и идей, которые формируют единое целое. Это и есть главная причина путаницы. Но прямо сейчас мы постараемся развеять все недопонимания и познакомить вас с каждой частью по-отдельности.
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
     </header>
     <header>Defining responsive web design</header>
-
-      The term responsive web design was coined by Ethan Marcotte. In his seminal List Apart article (http://www.alistapart.com/articles/responsive-web-design/) he consolidated three existing techniques (flexible grid layout, flexible images,
-      and media and media queries) into one unified approach and named it responsive web design. The term is often used to infer the same meaning as a number of
-      other descriptions such as fluid design, elastic layout, rubber layout, liquid design, adaptive layout, cross-device design, and flexible design.
+      A <span class="mark_green">flexible grid</span> (with <span class="mark_yellow">flexible images</span>) that incorporates <span class="mark_red">media queries</span> to create a resopnsive, adaptive layout.
+      <div class='author'>- Ethan Marcotte </div>
   </section>
 </div>
 
@@ -334,7 +347,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Отзывчивый веб-дизайн – это технология создания веб-страниц, которая обеспечивает удобство их просмотра на различных устройствах (стационарных компьютерах, ноутбуках, планшетах, смартфонах, телевизорах, имеющих подключение к Интернет (например, через игровую приставку), и т.д.). Целью отзывчивого веб-дизайна является универсальность HTML-разметки веб-сайта для различных устройств. Для того, чтобы веб-сайт был удобно просматриваемым с устройств различных разрешений и форматов, по технологии отзывчивого веб-дизайна не нужно создавать отдельные версии веб-сайта для каждого конкретного типа устройств.
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -358,6 +371,16 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
                 If you think you need to create a "mobile" version of your website—think again! A responsive web design provides one design that looks great on smart phone, desktop, and everything in-between. It will effortlessly respond to the size of the user's screen, providing the best experience possible for both today's and tomorrow's devices.
+
+                Так что же такое адаптивный дизайн на самом деле? На самом деле, лучше будет спросить «Какие проблемы адаптивный дизайн помогает решить?». Итак, как вы, вероятно, уже могли заметить, компьютеры более не являются единственным устройством, через которое люди сидят в интернете. Возможно, мы опорочим свой статус подобным заявлением, но нам кажется, что iPhone является первым мобильным устройством, в котором действительно по-настоящему был реализован веб-браузер. Это устройство дало толчок всему миру мобильных девайсов. Многие другие производители последовали примеру, и в целом изменился весь облик мобильного мира.
+
+                Изменение «ландшафта» веб-браузеров означает также то, что изменились и ожидания пользователей; людям хочется пользоваться интернетом посредством мобильных устройств так же просто, как они делают это с помощью компьютеров. Итак, в ответ на это (извините за каламбур) сообщество веб-дизайнеров начало разрабатывать мобильные версии веб-сайтов. Оглянувшись назад, вряд ли можно сказать, что это было решением проблемы, но в то время эта идея казалась вполне разумной и резонной. У каждого веб-сайта должно было быть две версии: основная версия «для рабочего стола», а также, в качестве бонуса, «мобильная» версия.
+
+                Технология не перестает развиваться, и поэтому, когда рынок мобильных телефонов существенно эволюционировал, появились и другие форм-факторы, и даже стали очень популярными. Вдобавок к телефонам и персональным компьютером, мы получили планшеты, экраны которых были основаны на технологии touch, а также маленькие ноутбуки (нетбуки, если желаете) стали появляться повсюду.
+
+                И дело не только в маленьких экранах. Так же дело обстоит и с большими, высокоточными, дисплеями, которые набирают небывалую популярность. Веб-дизайнеры просто не могли не воспользоваться данным преимуществом.
+
+                В итоге, спектр размеров и разрешений ежедневно расширяется, и вряд ли было бы практичным разрабатывать отдельную версию веб-сайта для каждого разрешения или размера экрана. Именно эту проблему и призван решить адаптивный/реагирующий веб-дизайн.
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -517,7 +540,12 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+            Ранее мы упоминали о том, что адаптивный дизайн – это не отдельная часть технологии, а свод различных техник и идей. Теперь, когда у нас более четкое представление о проблеме, которую можно решить посредством данной технологии, давайте поближе познакомимся с каждой её частью.
+
+               Отзывчивый веб-дизайн базируется на 3 принципах:
+                  Гибкий макет на основе сетки (flexible, grid-based layout)
+                  Гибкие изображения (flexible images)
+                  Медиазапросы (CSS3 media queries)
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -566,7 +594,16 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Первая ключевая идея адаптивного дизайна заключается в использовании так называемых гибких сеток. Навскидку, создание «резинового шаблона» (который расширяется вместе со страницей) не было настолько популярным, как создание фиксированных шаблонов (когда шаблон страницы имеет четко указанные параметры ширины и высоты, а при больших размерах окна браузера просто выравнивается по центру). Тем не менее, если учитывать разнообразие расширений и размеров экранов, представленных на сегодняшнем рынке, преимущество резиновых шаблонов становится настолько сильным, что его нельзя игнорировать.
+
+                Гибкие сетки на несколько шагов опережают традиционные резиновые шаблоны. Вместо разработки шаблона, основанного на твердо указанных пикселях или на процентном соотношении, гибкая сетка более корректно подходит к построению шаблона с точки зрения пропорций. Таким образом, когда шаблон сжимается до размеров маленького мобильного устройства или растягивается до размеров большого монитора, все элементы шаблона также уменьшаются в размерах, в зависимости друг от друга.
+
+                Для того чтобы высчитать пропорции для каждого элемента на странице, вы должны разделить указанный элемент по контексту. На данный момент наилучшим способом является создание высококачественного (высокоточного) наброска в редакторе изображений, позволяющем работать с пиксельной точностью (например, Photoshop). Имея свой набросок высокой точности, вы можете измерить элемент на странице, и разделить его на полную ширину страницы. Например, если ширина вашего шаблона равна 960 пикселей, то это и будет значение вашего элемента «container». Затем давайте предположим, что наш указанный элемент имеет ширину в 300 пикселей. Если мы разделим результат на 100, то получим процентное соотношение равное 31.25%. Его мы и можем применить к нашему элементу. Вот наш расчет:
+
+
+                Если в вашем шаблоне цифры не такие аккуратные, и имеются различные дополнительные значения в виде сотых, то настоятельно рекомендуем вам не округлять эти значения. Мы, люди, любим красивые цифры, но наши компьютеры (а особенно наши дизайны) любят математическую точность.
+
+                Гибкие сетки очень важны в процессе разработки адаптивного дизайна, но они могут помочь нам не во всех случаях. Когда ширина браузерного окна становится совсем небольшой, дизайн начнет преломляться. Например, полноценный 3-колонный шаблон вряд ли будет нормально отображаться на маленьком экране мобильного устройства. К счастью, адаптивный дизайн и об этом позаботился… за счет media queries
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -594,7 +631,25 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Основная идея — формула для вычисления пропорций в процентах «target / context = result». Например, у нас есть макет psd с шириной 1000px. В нем есть два блока: один слева шириной 270px, другой справа 730px. Сверстаем мы их так:
+
+                .leftcolumn {
+                width: 27%; /* 270px / 1000px = 0,27 */
+                float: left;
+                }
+                 
+                .rightcolumn {
+                width: 73%; /* 730px / 1000px = 0,73 */
+                float: right;
+                }
+
+
+                Если внутри левого столбца будет еще один блок и, скажем, на макете он шириной в 170px, то для него поменяются цель и контекст, и код будет выглядеть вот так:
+
+                .leftcolumn .some-div {
+                width: 62,962963%; /* 170px / 270px = 0.62962963 */
+                float: left;
+                }
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -612,6 +667,110 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Fluid Grids:</header>
+
+      Part One
+        <hr>
+        Flex your font. 
+  </section>
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Flex your font. </header>
+
+      { example goes here: use em.. }
+       
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Fluid Grids:</header>
+
+      Part Two
+        <hr>
+        Flex your layout. 
+  </section>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Flex your layout. </header>
+
+      { example goes here: use % }
+       
+  </section>
+</div>
 
 
 
@@ -688,7 +847,11 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Подстраивают свои размеры под блок родителя. Основная идея в неочевидном применении свойства { max-width: 100% }. Изображение с img { max-width: 100% } никогда не вылезет из своего блока-родителя.
+
+                Если блок-родитель меньше, чем размеры img, то изображение пропорционально уменьшится. Этот принцип применим как для img, так и для embed, object, video.
+
+                http://www.alistapart.com/articles/fluid-images/
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -704,6 +867,87 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Flexible Images. </header>
+
+      { example goes here: use max-width:100%.. }
+       
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Flexible Images. </header>
+      max-width in IE :(
+      <hr>
+      { example goes here:   .. } <br>
+      Ethan Marcotte did all the work for you.. <br>
+      http://unstoppablerobotninja.com/entry/fluid-images/
+       
+  </section>
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Flexible Images. </header>
+      Downloaded VS Displayed
+      <hr>
+      { example goes here:   .. } <br>
+      Filament Group did all the work for you.. <br>
+      https://github.com/filamentgroup/Responsive-Images
+       
+  </section>
+</div>
 
 
 <!--------------------------------------- Slide  -------------------------------------------------------
@@ -753,6 +997,262 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               Вторая часть адаптивного дизайна заключается в CSS3 media queries, которые на данный момент поддерживаются почти во всех современных браузерах. Если вы не знакомы с CSS3 media queries, то эта технология в основном позволяет вам собирать данные о посетителе сайта, и использовать их для применения соответствующих стилей CSS. В нашем случае мы ориентированы на свойство min-width, которое позволяет нам применять определенные CSS-стили, если размер окна браузера подпадает под определенную ширину, которую мы можем задать. Если мы хотели применить стилизацию к мобильным телефонам, то наш media query выглядел бы примерно так:
+               ..
+               Используя серию media queries типа таких, мы можем и дальше делать нашу работу, даже при больших разрешениях. Мы рекомендуем вам использовать следующие наборы разрешений в пикселях:
+
+                * 320px
+                * 480px
+                * 600px
+                * 768px
+                * 900px
+                * 1200px
+
+                Опять же, это всего лишь наша рекомендация, и она может служить вам в качестве точки отсчета. В идеале вам следовало бы настроить шаблон так, чтобы он идеально отображался на любом устройстве, но зачастую приходится ограничивать направления, в которые стоит вложить силы. С практической точки зрения, разрешения, на которые направлен дизайн, будут основаны на разрешениях, которые используют люди. В целом, когда вы просчитываете, какие разрешения нужно учитывать, вы должны руководствоваться по собственному усмотрению. Если учитывать больше разрешений, то это займет гораздо больше времени, и важно учитывать, что вы не бессмертный.
+
+
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header></header>
+
+      “The absence of a media queries in fact, the first media query”
+      <div class='author'>- Bryan Rieger, Rethinking the Mobile Web </div>
+      
+  </section>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               Нужны для отображения макета, оптимизированного под разрешение, с которого в данный момент этот сайт смотрится. Это часть стандарта CSS, которая позволяет применять стили на основе информации о разрешении устройства.
+
+                Например, так:
+
+                /* начало css */
+                 
+                Здесь базовые стили для глупых браузеров. Например, для телефонов не high-end уровня. Pocket Internet Explorer для Windows Mobile 6.5 здесь же :).
+                 
+                @media only screen and (min-width: 480px) {
+                 
+                Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.
+                 
+                }
+                 
+                @media only screen and (min-width: 768px) {
+                 
+                Планшеты в режиме portrait.
+                 
+                }
+                 
+                @media only screen and (min-width: 992px) {
+                 
+                Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.
+                 
+                }
+                 
+                @media only screen and (min-width: 1382px) {
+                 
+                Десктоп с большими разрешениями, телевизоры.
+                 
+                }
+                 
+                 
+                /* конец css */
+
+
+                media queries понимают все разумные браузеры. Для ie же есть Respond.js
+
+                http://caniuse.com/#search=media%20queries
+                https://github.com/scottjehl/Respond
+
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>How do they work?</header>
+
+      Through media queries, the browser is served different styles or stylesheetsbased on the dimensions and the device.<br>
+      The @mediaconstruct allows style sheet rules for various media in the same style sheet.<br>
+      An @mediarule specifies the target media types (separated by commas) of a set of statements (delimited by curly braces).
+      
+  </section>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Media Features </header>
+      Downloaded VS Displayed
+      <hr>
+      { example goes here:   .. } <br>
+      width, height, device-width, device-heigth, orientation, aspect-ratio...
+       
+  </section>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>We can</header>
+      We can adapt our design to specific range of devices
+      <hr>
+      without changing the content
+       
+  </section>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Issue #1</header>
+      Browser compatibility
+      <hr>
+      { exmple goes here ..}
+       
+  </section>
+</div>
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Browser compatibility</header>
+      { example goes here:   .. } <br>
+      Vouter van der Graaf did all the work for you.. <br>
+      http://code.google.com/p/css3-mediaqueries-js/
+       
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Issue #2</header>
+      Mobile resizing
+      <hr>
+      { exmple goes here ..}
+       
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               { notes goes here..}
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    </header>
+    <header>Issue #2</header>
+      Mobile resizing
+      <hr>
+      { exmple goes here ..}<br>
+      <pre>
+        <meta name='viewport' content='width=device-width; initial-scale=1.0'>
+      </pre>
+       
+  </section>
+</div>
+
 
 
 
@@ -782,6 +1282,13 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+          <aside class="note"><section>
+            Это техника, при которой сайт верстается сначала для устройств с меньшими возможностями, а затем с помощью media queries добавляются возможности и плюшки.
+
+            Так глупые браузеры без media queries получат самый простой контент (например, на мобильных телефонах). А более продвинутые поймут и отрисуют страницу, беря во внимание media queries.
+
+            http://yiibu.com/about/site/
+        </section></aside>
   <section >
     <img class="img_screen" src="images/_tmp_/04.jpg" />
   </section>
