@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .slide-text header {
-  line-height: 1.4em;
+  line-height: 1.6em;
   font-size:50px;
   font-family:'destroy';
   text-shadow: #111 2px 4px; 
@@ -97,11 +97,20 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .slide-text section {
-  line-height: 1.4em;
+  line-height: 1.6em;
   font-size: 42px;
   font-family: 'Ayita';
   text-shadow: #111 1px 2px; 
-  color: white
+  color: white;
+}
+
+
+.slide-text section a {
+  line-height: 1.6em;
+  font-size: 34px;
+  font-family: 'Ayita';
+  text-shadow: #111 1px 2px; 
+  color: yellow;
 }
 
 .author {
@@ -127,4 +136,11 @@ section.topic {
   font-size: 12px;
   color: white;
   text-shadow: none;
+}
+
+.prettyprint {
+  background-color: rgba(240, 240, 240, 0.9);
+  text-shadow: none;
+  line-height: 1.2em;
+  font-size:34px
 }
