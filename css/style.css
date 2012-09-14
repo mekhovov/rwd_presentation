@@ -138,6 +138,18 @@ section.topic {
   text-shadow: none;
 }
 
+.comics .note {
+  background: rgba(40, 40, 40, 0.9);
+  /*height: 300px;*/
+}
+.comics .note > section {
+  line-height: 1.6em;
+  font-size: 16px;
+  color: white;
+  text-shadow: none;
+}
+
+
 .prettyprint {
   background-color: rgba(240, 240, 240, 0.9);
   text-shadow: none;

@@ -429,17 +429,21 @@ SlideManager.prototype.onKeyDown = function(evt) {
     return;
   }
   switch (evt.keyCode) {
+    case 33: // prev by pult
     case 37: // left arrow
       this.prev();
       break;
     case 39: // right arrow
+    case 34: // next by pult
     case 32: // space
       this.next();
       break;
-    case 78: // N
+    case 78:  // N
+    case 116: // N by pult
       this.toggleSpeakerNotes();
       break;
-    case 72: // H
+    case 72:  // H
+    case 190: // H by pult
       this.highlightImportantCode();
       break;
   }

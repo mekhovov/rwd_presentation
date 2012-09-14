@@ -1,0 +1,1466 @@
+<?xml version="1.0"?>
+<cl:Comic pqa:oid="202068624" xmlns:cl="http://plasq.com/namespaces/cl" xmlns:pq="http://plasq.com/namespaces/pq" xmlns:pqa="http://plasq.com/namespaces/pqa" pq:app_build_date="Dec 16 2010" pq:system-version="1000" pq:version="2.0.1 (v18900)" pq:generator="com.plasq.ComicLife2">
+    <cl:revisionHistory>
+        <pq:array>
+            <pq:property-map>
+                <cl:Version>
+                    <pq:string pqa:string="2.0.1%20(v18900)" />
+                </cl:Version>
+                <cl:Date>
+                    <pq:string pqa:string="2012-09-13%2019:06:11%20+0000" />
+                </cl:Date>
+            </pq:property-map>
+        </pq:array>
+    </cl:revisionHistory>
+    <cl:imageManager>
+        <cl:ImageManager pqa:oid="201366848">
+            <cl:images>
+                <pq:property-map>
+                    <cl:7E2D4BBD-DDB4-4D79-A81D-5482C61C9524>
+                        <cl:ImageFile pqa:oid="51970448">
+                            <cl:inPackage>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:inPackage>
+                            <cl:name>
+                                <pq:string pqa:string="Untitled-4.png" />
+                            </cl:name>
+                            <cl:path />
+                            <cl:originalPath>
+                                <pq:string pqa:string="/Users/alex/alex/alex/Google%20Drive/work/responsive/comics/_processed/Untitled-4.png" />
+                            </cl:originalPath>
+                        </cl:ImageFile>
+                    </cl:7E2D4BBD-DDB4-4D79-A81D-5482C61C9524>
+                    <cl:226DB9C5-AC1E-4965-9377-C2DAD537DF24>
+                        <cl:ImageFile pqa:oid="32317072">
+                            <cl:inPackage>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:inPackage>
+                            <cl:name>
+                                <pq:string pqa:string="Untitled-5.png" />
+                            </cl:name>
+                            <cl:path />
+                            <cl:originalPath>
+                                <pq:string pqa:string="/Users/alex/alex/alex/Google%20Drive/work/responsive/comics/_processed/Untitled-5.png" />
+                            </cl:originalPath>
+                        </cl:ImageFile>
+                    </cl:226DB9C5-AC1E-4965-9377-C2DAD537DF24>
+                    <cl:6C865B02-1592-4EFB-8B58-958B34BBEC14>
+                        <cl:ImageFile pqa:oid="336173632">
+                            <cl:inPackage>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:inPackage>
+                            <cl:name>
+                                <pq:string pqa:string="Untitled-3.png" />
+                            </cl:name>
+                            <cl:path />
+                            <cl:originalPath>
+                                <pq:string pqa:string="/Users/alex/alex/alex/Google%20Drive/work/responsive/comics/_processed/Untitled-3.png" />
+                            </cl:originalPath>
+                        </cl:ImageFile>
+                    </cl:6C865B02-1592-4EFB-8B58-958B34BBEC14>
+                </pq:property-map>
+            </cl:images>
+        </cl:ImageManager>
+    </cl:imageManager>
+    <cl:stylesheet>
+        <cl:Stylesheet pqa:oid="26753472">
+            <cl:Styles>
+                <pq:property-map>
+                    <cl:Caption>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="26368432">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:shadow_yOffset>
+                                            <pq:number pqa:number="-4" pqa:type="f" />
+                                        </cl:shadow_yOffset>
+                                        <cl:text_horizontalJustification>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:text_horizontalJustification>
+                                        <cl:font_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:font_enabled>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                        <cl:stroke_joinStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_joinStyle>
+                                        <cl:stroke_outlineCount>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:stroke_outlineCount>
+                                        <cl:font_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:font_color>
+                                        <cl:stroke_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_color>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:shadow_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:shadow_enabled>
+                                        <cl:font_underlined>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:font_underlined>
+                                        <cl:text_margin>
+                                            <pq:number pqa:number="2" pqa:type="i" />
+                                        </cl:text_margin>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="376025248">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="215550672">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="376025248" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:shadow_opacity>
+                                            <pq:number pqa:number="0.75" pqa:type="f" />
+                                        </cl:shadow_opacity>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:stroke_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:stroke_enabled>
+                                        <cl:stroke_dashType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_dashType>
+                                        <cl:shape_factor>
+                                            <pq:number pqa:number="5" pqa:type="f" />
+                                        </cl:shape_factor>
+                                        <cl:shadow_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:shadow_color>
+                                        <cl:stroke_width>
+                                            <pq:number pqa:number="2" pqa:type="f" />
+                                        </cl:stroke_width>
+                                        <cl:shadow_blurRadius>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shadow_blurRadius>
+                                        <cl:font_font>
+                                            <pq:font pqa:name="LintMcCreeIntlBB-Italic" pqa:family="Lint%20McCree%20Intl%20BB" pqa:size="10.000000" pqa:style="italic" />
+                                        </cl:font_font>
+                                        <cl:stroke_outlineAltColor>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_outlineAltColor>
+                                        <cl:shape_type>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:shape_type>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:stroke_capStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_capStyle>
+                                        <cl:text_verticalJustification>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:text_verticalJustification>
+                                        <cl:shadow_xOffset>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:shadow_xOffset>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Caption>
+                    <cl:Shape>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="202041424">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:shadow_xOffset>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:shadow_xOffset>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:stroke_capStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_capStyle>
+                                        <cl:stroke_outlineCount>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:stroke_outlineCount>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:stroke_width>
+                                            <pq:number pqa:number="1" pqa:type="f" />
+                                        </cl:stroke_width>
+                                        <cl:stroke_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:stroke_enabled>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="215834832">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="215566528">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="0.000000" pqa:g="1.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="215834832" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:shadow_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:shadow_enabled>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                        <cl:stroke_outlineAltColor>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_outlineAltColor>
+                                        <cl:shadow_opacity>
+                                            <pq:number pqa:number="0.75" pqa:type="f" />
+                                        </cl:shadow_opacity>
+                                        <cl:stroke_dashType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_dashType>
+                                        <cl:stroke_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_color>
+                                        <cl:shadow_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:shadow_color>
+                                        <cl:stroke_joinStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_joinStyle>
+                                        <cl:shadow_blurRadius>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shadow_blurRadius>
+                                        <cl:shadow_yOffset>
+                                            <pq:number pqa:number="-4" pqa:type="f" />
+                                        </cl:shadow_yOffset>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Shape>
+                    <cl:Panel>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="201444272">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:shadow_yOffset>
+                                            <pq:number pqa:number="-4" pqa:type="f" />
+                                        </cl:shadow_yOffset>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                        <cl:stroke_joinStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_joinStyle>
+                                        <cl:stroke_outlineCount>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:stroke_outlineCount>
+                                        <cl:stroke_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_color>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:shadow_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:shadow_enabled>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="201493792">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="215423600">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="201493792" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:shadow_opacity>
+                                            <pq:number pqa:number="0.75" pqa:type="f" />
+                                        </cl:shadow_opacity>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:stroke_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:stroke_enabled>
+                                        <cl:stroke_dashType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_dashType>
+                                        <cl:shape_factor>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shape_factor>
+                                        <cl:shadow_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:shadow_color>
+                                        <cl:stroke_width>
+                                            <pq:number pqa:number="1" pqa:type="f" />
+                                        </cl:stroke_width>
+                                        <cl:shadow_blurRadius>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shadow_blurRadius>
+                                        <cl:stroke_outlineAltColor>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_outlineAltColor>
+                                        <cl:shape_type>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:shape_type>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:stroke_capStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_capStyle>
+                                        <cl:shadow_xOffset>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:shadow_xOffset>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Panel>
+                    <cl:Page>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="215259120">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="27217904">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="375952320">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="27217904" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Page>
+                    <cl:Lettering>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="201461872">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:lettering_spacing>
+                                            <pq:number pqa:number="0" pqa:type="f" />
+                                        </cl:lettering_spacing>
+                                        <cl:shadow_yOffset>
+                                            <pq:number pqa:number="-4" pqa:type="f" />
+                                        </cl:shadow_yOffset>
+                                        <cl:font_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:font_enabled>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                        <cl:stroke_joinStyle>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:stroke_joinStyle>
+                                        <cl:stroke_outlineCount>
+                                            <pq:number pqa:number="3" pqa:type="i" />
+                                        </cl:stroke_outlineCount>
+                                        <cl:font_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:font_color>
+                                        <cl:stroke_color>
+                                            <pq:calibrated-rgb-color-type pqa:r="0.300000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_color>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:shadow_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:shadow_enabled>
+                                        <cl:font_underlined>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:font_underlined>
+                                        <cl:shadow_opacity>
+                                            <pq:number pqa:number="0.75" pqa:type="f" />
+                                        </cl:shadow_opacity>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="215513200">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="90.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="215380080">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="215513200" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                        <cl:PQColorStop pqa:oid="201419760">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="1.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="215513200" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:stroke_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:stroke_enabled>
+                                        <cl:lettering_baseline>
+                                            <pq:number pqa:number="0" pqa:type="f" />
+                                        </cl:lettering_baseline>
+                                        <cl:stroke_dashType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_dashType>
+                                        <cl:shadow_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:shadow_color>
+                                        <cl:stroke_width>
+                                            <pq:number pqa:number="3" pqa:type="f" />
+                                        </cl:stroke_width>
+                                        <cl:lettering_joined>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:lettering_joined>
+                                        <cl:shadow_blurRadius>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shadow_blurRadius>
+                                        <cl:font_font>
+                                            <pq:font pqa:name="BadaBoomBB" pqa:family="BadaBoom%20BB" pqa:size="48.000000" />
+                                        </cl:font_font>
+                                        <cl:stroke_outlineAltColor>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="0.500000" pqa:a="1.000000" />
+                                        </cl:stroke_outlineAltColor>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:stroke_capStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_capStyle>
+                                        <cl:shadow_xOffset>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:shadow_xOffset>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Lettering>
+                    <cl:Balloon>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="26418960">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:image_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:image_enabled>
+                                        <cl:shadow_yOffset>
+                                            <pq:number pqa:number="-4" pqa:type="f" />
+                                        </cl:shadow_yOffset>
+                                        <cl:text_horizontalJustification>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:text_horizontalJustification>
+                                        <cl:font_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:font_enabled>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                        <cl:stroke_joinStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_joinStyle>
+                                        <cl:stroke_outlineCount>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:stroke_outlineCount>
+                                        <cl:font_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:font_color>
+                                        <cl:stroke_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_color>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:shadow_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:shadow_enabled>
+                                        <cl:font_underlined>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:font_underlined>
+                                        <cl:text_margin>
+                                            <pq:number pqa:number="3" pqa:type="i" />
+                                        </cl:text_margin>
+                                        <cl:image_filterID>
+                                            <pq:string pqa:string="None" />
+                                        </cl:image_filterID>
+                                        <cl:shadow_opacity>
+                                            <pq:number pqa:number="0.75" pqa:type="f" />
+                                        </cl:shadow_opacity>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="375987936">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="201680992">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="375987936" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:stroke_enabled>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:stroke_enabled>
+                                        <cl:image_color>
+                                            <pq:calibrated-rgb-color-type pqa:r="0.000000" pqa:g="0.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                        </cl:image_color>
+                                        <cl:stroke_dashType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_dashType>
+                                        <cl:image_invert>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:image_invert>
+                                        <cl:shadow_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:shadow_color>
+                                        <cl:stroke_width>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:stroke_width>
+                                        <cl:balloon_tailType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:balloon_tailType>
+                                        <cl:shadow_blurRadius>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shadow_blurRadius>
+                                        <cl:font_font>
+                                            <pq:font pqa:name="LintMcCreeIntlBB" pqa:family="Lint%20McCree%20Intl%20BB" pqa:size="10.000000" />
+                                        </cl:font_font>
+                                        <cl:stroke_outlineAltColor>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_outlineAltColor>
+                                        <cl:image_colorize>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:image_colorize>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:stroke_capStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_capStyle>
+                                        <cl:text_verticalJustification>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:text_verticalJustification>
+                                        <cl:shadow_xOffset>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:shadow_xOffset>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Balloon>
+                    <cl:Image>
+                        <pq:array>
+                            <cl:StyleDef pqa:oid="375686128">
+                                <cl:_name>
+                                    <pq:string pqa:string="default" />
+                                </cl:_name>
+                                <cl:_settings>
+                                    <pq:property-map>
+                                        <cl:image_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:image_enabled>
+                                        <cl:shadow_yOffset>
+                                            <pq:number pqa:number="-4" pqa:type="f" />
+                                        </cl:shadow_yOffset>
+                                        <cl:fill_imageMode>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:fill_imageMode>
+                                        <cl:stroke_joinStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_joinStyle>
+                                        <cl:stroke_outlineCount>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:stroke_outlineCount>
+                                        <cl:stroke_color>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                        </cl:stroke_color>
+                                        <cl:fill_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:fill_enabled>
+                                        <cl:shadow_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:shadow_enabled>
+                                        <cl:image_filterID>
+                                            <pq:string pqa:string="None" />
+                                        </cl:image_filterID>
+                                        <cl:fill_gradient>
+                                            <cl:PQGradient pqa:oid="215154736">
+                                                <cl:type>
+                                                    <pq:number pqa:number="0" pqa:type="i" />
+                                                </cl:type>
+                                                <cl:angle>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:angle>
+                                                <cl:offset>
+                                                    <pq:point pqa:x="0.000000" pqa:y="0.000000" />
+                                                </cl:offset>
+                                                <cl:colorStops>
+                                                    <pq:array>
+                                                        <cl:PQColorStop pqa:oid="214998768">
+                                                            <cl:offset>
+                                                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                            </cl:offset>
+                                                            <cl:color>
+                                                                <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="1.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                                            </cl:color>
+                                                            <cl:gradient>
+                                                                <pq:object-ref pqa:oid="215154736" />
+                                                            </cl:gradient>
+                                                        </cl:PQColorStop>
+                                                    </pq:array>
+                                                </cl:colorStops>
+                                            </cl:PQGradient>
+                                        </cl:fill_gradient>
+                                        <cl:shadow_opacity>
+                                            <pq:number pqa:number="0.75" pqa:type="f" />
+                                        </cl:shadow_opacity>
+                                        <cl:fill_type>
+                                            <pq:number pqa:number="1" pqa:type="i" />
+                                        </cl:fill_type>
+                                        <cl:stroke_enabled>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:stroke_enabled>
+                                        <cl:image_color>
+                                            <pq:calibrated-rgb-color-type pqa:r="0.000000" pqa:g="0.000000" pqa:b="1.000000" pqa:a="1.000000" />
+                                        </cl:image_color>
+                                        <cl:stroke_dashType>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_dashType>
+                                        <cl:image_invert>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:image_invert>
+                                        <cl:shadow_color>
+                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                        </cl:shadow_color>
+                                        <cl:stroke_width>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:stroke_width>
+                                        <cl:shadow_blurRadius>
+                                            <pq:number pqa:number="10" pqa:type="f" />
+                                        </cl:shadow_blurRadius>
+                                        <cl:stroke_outlineAltColor>
+                                            <pq:calibrated-rgb-color-type pqa:r="1.000000" pqa:g="0.000000" pqa:b="0.000000" pqa:a="1.000000" />
+                                        </cl:stroke_outlineAltColor>
+                                        <cl:image_colorize>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:image_colorize>
+                                        <cl:fill_imageTintOpacity>
+                                            <pq:number pqa:number="0.5" pqa:type="f" />
+                                        </cl:fill_imageTintOpacity>
+                                        <cl:stroke_capStyle>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:stroke_capStyle>
+                                        <cl:shape_type>
+                                            <pq:number pqa:number="0" pqa:type="i" />
+                                        </cl:shape_type>
+                                        <cl:shadow_xOffset>
+                                            <pq:number pqa:number="4" pqa:type="f" />
+                                        </cl:shadow_xOffset>
+                                    </pq:property-map>
+                                </cl:_settings>
+                            </cl:StyleDef>
+                        </pq:array>
+                    </cl:Image>
+                </pq:property-map>
+            </cl:Styles>
+            <cl:Name />
+        </cl:Stylesheet>
+    </cl:stylesheet>
+    <cl:pages>
+        <pq:array>
+            <cl:Page pqa:oid="201604128">
+                <cl:comic>
+                    <pq:object-ref pqa:oid="202068624" />
+                </cl:comic>
+                <cl:page />
+                <cl:frame>
+                    <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="559.000000" pqa:h="783.000000" />
+                </cl:frame>
+                <cl:clipToFrame>
+                    <pq:number pqa:number="1" pqa:type="c" />
+                </cl:clipToFrame>
+                <cl:elements>
+                    <pq:array>
+                        <cl:Image pqa:oid="210769680">
+                            <cl:comic>
+                                <pq:object-ref pqa:oid="202068624" />
+                            </cl:comic>
+                            <cl:page>
+                                <pq:object-ref pqa:oid="201604128" />
+                            </cl:page>
+                            <cl:frame>
+                                <pq:rect pqa:x="412.763306" pqa:y="-31.057709" pqa:w="998.192993" pqa:h="775.118530" />
+                            </cl:frame>
+                            <cl:clipToFrame>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:clipToFrame>
+                            <cl:elements>
+                                <pq:array />
+                            </cl:elements>
+                            <cl:style>
+                                <pq:object-ref pqa:oid="375686128" />
+                            </cl:style>
+                            <cl:angle>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:angle>
+                            <cl:master />
+                            <cl:clipSource />
+                            <cl:styleOverrides>
+                                <pq:property-map />
+                            </cl:styleOverrides>
+                            <cl:lock>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:lock>
+                            <cl:imageInfo>
+                                <cl:ImageHelper pqa:oid="335934688">
+                                    <cl:imageHandle>
+                                        <cl:ImageHandle pqa:oid="210764720">
+                                            <cl:imageID>
+                                                <pq:string pqa:string="6C865B02-1592-4EFB-8B58-958B34BBEC14" />
+                                            </cl:imageID>
+                                        </cl:ImageHandle>
+                                    </cl:imageHandle>
+                                    <cl:imageRect>
+                                        <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="1150.000000" pqa:h="893.000000" />
+                                    </cl:imageRect>
+                                    <cl:flipVertical>
+                                        <pq:number pqa:number="0" pqa:type="c" />
+                                    </cl:flipVertical>
+                                    <cl:flipHorizontal>
+                                        <pq:number pqa:number="0" pqa:type="c" />
+                                    </cl:flipHorizontal>
+                                    <cl:brightness>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:brightness>
+                                    <cl:saturation>
+                                        <pq:number pqa:number="1.000000" pqa:type="f" />
+                                    </cl:saturation>
+                                    <cl:contrast>
+                                        <pq:number pqa:number="1.000000" pqa:type="f" />
+                                    </cl:contrast>
+                                    <cl:exposure>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:exposure>
+                                    <cl:sharpness>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:sharpness>
+                                </cl:ImageHelper>
+                            </cl:imageInfo>
+                            <cl:maintainAspectRatio>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:maintainAspectRatio>
+                            <cl:aspectRatio>
+                                <pq:number pqa:number="1.287794" pqa:type="f" />
+                            </cl:aspectRatio>
+                            <cl:alreadyAutoSized>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:alreadyAutoSized>
+                        </cl:Image>
+                        <cl:Image pqa:oid="202075936">
+                            <cl:comic>
+                                <pq:object-ref pqa:oid="202068624" />
+                            </cl:comic>
+                            <cl:page>
+                                <pq:object-ref pqa:oid="201604128" />
+                            </cl:page>
+                            <cl:frame>
+                                <pq:rect pqa:x="-11.419037" pqa:y="-30.341995" pqa:w="434.892090" pqa:h="396.035767" />
+                            </cl:frame>
+                            <cl:clipToFrame>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:clipToFrame>
+                            <cl:elements>
+                                <pq:array />
+                            </cl:elements>
+                            <cl:style>
+                                <pq:object-ref pqa:oid="375686128" />
+                            </cl:style>
+                            <cl:angle>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:angle>
+                            <cl:master />
+                            <cl:clipSource />
+                            <cl:styleOverrides>
+                                <pq:property-map />
+                            </cl:styleOverrides>
+                            <cl:lock>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:lock>
+                            <cl:imageInfo>
+                                <cl:ImageHelper pqa:oid="202089616">
+                                    <cl:imageHandle>
+                                        <cl:ImageHandle pqa:oid="52096256">
+                                            <cl:imageID>
+                                                <pq:string pqa:string="7E2D4BBD-DDB4-4D79-A81D-5482C61C9524" />
+                                            </cl:imageID>
+                                        </cl:ImageHandle>
+                                    </cl:imageHandle>
+                                    <cl:imageRect>
+                                        <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="582.000000" pqa:h="530.000000" />
+                                    </cl:imageRect>
+                                    <cl:flipVertical>
+                                        <pq:number pqa:number="0" pqa:type="c" />
+                                    </cl:flipVertical>
+                                    <cl:flipHorizontal>
+                                        <pq:number pqa:number="0" pqa:type="c" />
+                                    </cl:flipHorizontal>
+                                    <cl:brightness>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:brightness>
+                                    <cl:saturation>
+                                        <pq:number pqa:number="1.000000" pqa:type="f" />
+                                    </cl:saturation>
+                                    <cl:contrast>
+                                        <pq:number pqa:number="1.000000" pqa:type="f" />
+                                    </cl:contrast>
+                                    <cl:exposure>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:exposure>
+                                    <cl:sharpness>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:sharpness>
+                                </cl:ImageHelper>
+                            </cl:imageInfo>
+                            <cl:maintainAspectRatio>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:maintainAspectRatio>
+                            <cl:aspectRatio>
+                                <pq:number pqa:number="1.098113" pqa:type="f" />
+                            </cl:aspectRatio>
+                            <cl:alreadyAutoSized>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:alreadyAutoSized>
+                        </cl:Image>
+                        <cl:Image pqa:oid="375755232">
+                            <cl:comic>
+                                <pq:object-ref pqa:oid="202068624" />
+                            </cl:comic>
+                            <cl:page>
+                                <pq:object-ref pqa:oid="201604128" />
+                            </cl:page>
+                            <cl:frame>
+                                <pq:rect pqa:x="977.108643" pqa:y="575.063110" pqa:w="431.849854" pqa:h="272.591339" />
+                            </cl:frame>
+                            <cl:clipToFrame>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:clipToFrame>
+                            <cl:elements>
+                                <pq:array />
+                            </cl:elements>
+                            <cl:style>
+                                <pq:object-ref pqa:oid="375686128" />
+                            </cl:style>
+                            <cl:angle>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:angle>
+                            <cl:master />
+                            <cl:clipSource />
+                            <cl:styleOverrides>
+                                <pq:property-map />
+                            </cl:styleOverrides>
+                            <cl:lock>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:lock>
+                            <cl:imageInfo>
+                                <cl:ImageHelper pqa:oid="215910544">
+                                    <cl:imageHandle>
+                                        <cl:ImageHandle pqa:oid="31617504">
+                                            <cl:imageID>
+                                                <pq:string pqa:string="226DB9C5-AC1E-4965-9377-C2DAD537DF24" />
+                                            </cl:imageID>
+                                        </cl:ImageHandle>
+                                    </cl:imageHandle>
+                                    <cl:imageRect>
+                                        <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="583.000000" pqa:h="368.000000" />
+                                    </cl:imageRect>
+                                    <cl:flipVertical>
+                                        <pq:number pqa:number="0" pqa:type="c" />
+                                    </cl:flipVertical>
+                                    <cl:flipHorizontal>
+                                        <pq:number pqa:number="0" pqa:type="c" />
+                                    </cl:flipHorizontal>
+                                    <cl:brightness>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:brightness>
+                                    <cl:saturation>
+                                        <pq:number pqa:number="1.000000" pqa:type="f" />
+                                    </cl:saturation>
+                                    <cl:contrast>
+                                        <pq:number pqa:number="1.000000" pqa:type="f" />
+                                    </cl:contrast>
+                                    <cl:exposure>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:exposure>
+                                    <cl:sharpness>
+                                        <pq:number pqa:number="0.000000" pqa:type="f" />
+                                    </cl:sharpness>
+                                </cl:ImageHelper>
+                            </cl:imageInfo>
+                            <cl:maintainAspectRatio>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:maintainAspectRatio>
+                            <cl:aspectRatio>
+                                <pq:number pqa:number="1.584239" pqa:type="f" />
+                            </cl:aspectRatio>
+                            <cl:alreadyAutoSized>
+                                <pq:number pqa:number="1" pqa:type="c" />
+                            </cl:alreadyAutoSized>
+                        </cl:Image>
+                        <cl:Lettering pqa:oid="26551312">
+                            <cl:comic>
+                                <pq:object-ref pqa:oid="202068624" />
+                            </cl:comic>
+                            <cl:page>
+                                <pq:object-ref pqa:oid="201604128" />
+                            </cl:page>
+                            <cl:frame>
+                                <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="158.812500" pqa:h="62.000000" />
+                            </cl:frame>
+                            <cl:clipToFrame>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:clipToFrame>
+                            <cl:elements>
+                                <pq:array />
+                            </cl:elements>
+                            <cl:style>
+                                <pq:object-ref pqa:oid="201461872" />
+                            </cl:style>
+                            <cl:angle>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:angle>
+                            <cl:master />
+                            <cl:clipSource />
+                            <cl:styleOverrides>
+                                <pq:property-map>
+                                    <cl:shadow_enabled>
+                                        <pq:number pqa:number="1" pqa:type="c" />
+                                    </cl:shadow_enabled>
+                                    <cl:font_font>
+                                        <pq:font pqa:name="BadaBoomBB" pqa:family="BadaBoom%20BB" pqa:size="58.000000" />
+                                    </cl:font_font>
+                                </pq:property-map>
+                            </cl:styleOverrides>
+                            <cl:lock>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:lock>
+                            <cl:point0>
+                                <pq:point pqa:x="1216.770142" pqa:y="-6.425049" />
+                            </cl:point0>
+                            <cl:point1>
+                                <pq:point pqa:x="1375.582520" pqa:y="-6.425049" />
+                            </cl:point1>
+                            <cl:point2>
+                                <pq:point pqa:x="1375.582520" pqa:y="55.574951" />
+                            </cl:point2>
+                            <cl:point3>
+                                <pq:point pqa:x="1216.770142" pqa:y="55.574951" />
+                            </cl:point3>
+                            <cl:point4>
+                                <pq:point pqa:x="1296.176392" pqa:y="-6.425049" />
+                            </cl:point4>
+                            <cl:point5>
+                                <pq:point pqa:x="1296.176392" pqa:y="55.574951" />
+                            </cl:point5>
+                            <cl:string>
+                                <pq:string pqa:string="The%20Idea" />
+                            </cl:string>
+                            <cl:spread>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:spread>
+                            <cl:skew>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:skew>
+                            <cl:stagger>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:stagger>
+                        </cl:Lettering>
+                        <cl:Balloon pqa:oid="51472160">
+                            <cl:comic>
+                                <pq:object-ref pqa:oid="202068624" />
+                            </cl:comic>
+                            <cl:page>
+                                <pq:object-ref pqa:oid="201604128" />
+                            </cl:page>
+                            <cl:frame>
+                                <pq:rect pqa:x="8.000000" pqa:y="368.647278" pqa:w="600.075989" pqa:h="464.352722" />
+                            </cl:frame>
+                            <cl:clipToFrame>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:clipToFrame>
+                            <cl:elements>
+                                <pq:array>
+                                    <cl:Tail pqa:oid="51453744">
+                                        <cl:comic>
+                                            <pq:object-ref pqa:oid="202068624" />
+                                        </cl:comic>
+                                        <cl:page />
+                                        <cl:frame>
+                                            <pq:rect pqa:x="318.379272" pqa:y="264.737823" pqa:w="0.000000" pqa:h="0.000000" />
+                                        </cl:frame>
+                                        <cl:clipToFrame>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:clipToFrame>
+                                        <cl:elements>
+                                            <pq:array />
+                                        </cl:elements>
+                                        <cl:style />
+                                        <cl:angle>
+                                            <pq:number pqa:number="0.000000" pqa:type="f" />
+                                        </cl:angle>
+                                        <cl:master>
+                                            <pq:object-ref pqa:oid="51472160" />
+                                        </cl:master>
+                                        <cl:clipSource />
+                                        <cl:styleOverrides>
+                                            <pq:property-map />
+                                        </cl:styleOverrides>
+                                        <cl:lock>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:lock>
+                                        <cl:startTail>
+                                            <pq:point pqa:x="308.037994" pqa:y="600.823608" />
+                                        </cl:startTail>
+                                        <cl:endTail>
+                                            <pq:point pqa:x="370.647278" pqa:y="433.570465" />
+                                        </cl:endTail>
+                                        <cl:midTail>
+                                            <pq:point pqa:x="333.081726" pqa:y="514.853333" />
+                                        </cl:midTail>
+                                        <cl:control1>
+                                            <pq:point pqa:x="314.298950" pqa:y="565.029297" />
+                                        </cl:control1>
+                                        <cl:control2>
+                                            <pq:point pqa:x="351.864502" pqa:y="464.677368" />
+                                        </cl:control2>
+                                        <cl:edited>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:edited>
+                                        <cl:thought>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:thought>
+                                        <cl:width>
+                                            <pq:number pqa:number="77.392120" pqa:type="f" />
+                                        </cl:width>
+                                    </cl:Tail>
+                                    <cl:Bubble pqa:oid="51442304">
+                                        <cl:comic>
+                                            <pq:object-ref pqa:oid="202068624" />
+                                        </cl:comic>
+                                        <cl:page />
+                                        <cl:frame>
+                                            <pq:rect pqa:x="8.000000" pqa:y="368.647278" pqa:w="600.075989" pqa:h="464.352722" />
+                                        </cl:frame>
+                                        <cl:clipToFrame>
+                                            <pq:number pqa:number="1" pqa:type="c" />
+                                        </cl:clipToFrame>
+                                        <cl:elements>
+                                            <pq:array />
+                                        </cl:elements>
+                                        <cl:style />
+                                        <cl:angle>
+                                            <pq:number pqa:number="0.000000" pqa:type="f" />
+                                        </cl:angle>
+                                        <cl:master>
+                                            <pq:object-ref pqa:oid="51472160" />
+                                        </cl:master>
+                                        <cl:clipSource />
+                                        <cl:styleOverrides>
+                                            <pq:property-map>
+                                                <cl:font_font>
+                                                    <pq:font pqa:name="LintMcCreeIntlBB" pqa:family="Lint%20McCree%20Intl%20BB" pqa:size="43.000000" />
+                                                </cl:font_font>
+                                            </pq:property-map>
+                                        </cl:styleOverrides>
+                                        <cl:lock>
+                                            <pq:number pqa:number="0" pqa:type="c" />
+                                        </cl:lock>
+                                        <cl:string>
+                                            <pq:text>
+                                                <pq:tspan>
+                                                    <pq:property-map>
+                                                        <pq:foreground-color>
+                                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                                        </pq:foreground-color>
+                                                        <pq:paragraph-style>
+                                                            <pq:paragraph-style pqa:align="center">
+                                                                <pq:tab-stops />
+                                                            </pq:paragraph-style>
+                                                        </pq:paragraph-style>
+                                                        <pq:font-name>
+                                                            <pq:font pqa:name="LintMcCreeIntlBB" pqa:family="Lint%20McCree%20Intl%20BB" pqa:size="43.000000" />
+                                                        </pq:font-name>
+                                                    </pq:property-map>
+                                                    <![CDATA[The basic idea of responsive web design is that a website should
+      gracefully “]]>
+
+                                                </pq:tspan>
+                                                <pq:tspan>
+                                                    <pq:property-map>
+                                                        <pq:foreground-color>
+                                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                                        </pq:foreground-color>
+                                                        <pq:font-name>
+                                                            <pq:font pqa:name="LintMcCreeIntlBB-Bold" pqa:family="Lint%20McCree%20Intl%20BB" pqa:size="43.000000" pqa:weight="bold" />
+                                                        </pq:font-name>
+                                                        <pq:paragraph-style>
+                                                            <pq:paragraph-style pqa:align="center">
+                                                                <pq:tab-stops />
+                                                            </pq:paragraph-style>
+                                                        </pq:paragraph-style>
+                                                    </pq:property-map>
+                                                    <![CDATA[respond]]>
+
+                                                </pq:tspan>
+                                                <pq:tspan>
+                                                    <pq:property-map>
+                                                        <pq:foreground-color>
+                                                            <pq:calibrated-white-color-type pqa:w="0.000000" pqa:a="1.000000" />
+                                                        </pq:foreground-color>
+                                                        <pq:paragraph-style>
+                                                            <pq:paragraph-style pqa:align="center">
+                                                                <pq:tab-stops />
+                                                            </pq:paragraph-style>
+                                                        </pq:paragraph-style>
+                                                        <pq:font-name>
+                                                            <pq:font pqa:name="LintMcCreeIntlBB" pqa:family="Lint%20McCree%20Intl%20BB" pqa:size="43.000000" />
+                                                        </pq:font-name>
+                                                    </pq:property-map>
+                                                    <![CDATA[” to the device it’s being viewed on.]]>
+
+                                                </pq:tspan>
+                                            </pq:text>
+                                        </cl:string>
+                                        <cl:type>
+                                            <pq:number pqa:number="7" pqa:type="i" />
+                                        </cl:type>
+                                        <cl:imageInfo>
+                                            <cl:ImageHelper pqa:oid="51532896">
+                                                <cl:imageHandle />
+                                                <cl:imageRect>
+                                                    <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="0.000000" pqa:h="0.000000" />
+                                                </cl:imageRect>
+                                                <cl:flipVertical>
+                                                    <pq:number pqa:number="0" pqa:type="c" />
+                                                </cl:flipVertical>
+                                                <cl:flipHorizontal>
+                                                    <pq:number pqa:number="0" pqa:type="c" />
+                                                </cl:flipHorizontal>
+                                                <cl:brightness>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:brightness>
+                                                <cl:saturation>
+                                                    <pq:number pqa:number="1.000000" pqa:type="f" />
+                                                </cl:saturation>
+                                                <cl:contrast>
+                                                    <pq:number pqa:number="1.000000" pqa:type="f" />
+                                                </cl:contrast>
+                                                <cl:exposure>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:exposure>
+                                                <cl:sharpness>
+                                                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                                                </cl:sharpness>
+                                            </cl:ImageHelper>
+                                        </cl:imageInfo>
+                                    </cl:Bubble>
+                                </pq:array>
+                            </cl:elements>
+                            <cl:style>
+                                <pq:object-ref pqa:oid="26418960" />
+                            </cl:style>
+                            <cl:angle>
+                                <pq:number pqa:number="0.000000" pqa:type="f" />
+                            </cl:angle>
+                            <cl:master />
+                            <cl:clipSource />
+                            <cl:styleOverrides>
+                                <pq:property-map>
+                                    <cl:shadow_enabled>
+                                        <pq:number pqa:number="1" pqa:type="c" />
+                                    </cl:shadow_enabled>
+                                </pq:property-map>
+                            </cl:styleOverrides>
+                            <cl:lock>
+                                <pq:number pqa:number="0" pqa:type="c" />
+                            </cl:lock>
+                            <cl:type>
+                                <pq:number pqa:number="7" pqa:type="i" />
+                            </cl:type>
+                        </cl:Balloon>
+                    </pq:array>
+                </cl:elements>
+                <cl:style>
+                    <pq:object-ref pqa:oid="215259120" />
+                </cl:style>
+                <cl:angle>
+                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                </cl:angle>
+                <cl:master />
+                <cl:clipSource />
+                <cl:styleOverrides>
+                    <pq:property-map />
+                </cl:styleOverrides>
+                <cl:lock>
+                    <pq:number pqa:number="0" pqa:type="c" />
+                </cl:lock>
+                <cl:size>
+                    <pq:size pqa:w="1404.000000" pqa:h="841.000000" />
+                </cl:size>
+                <cl:restartPageNumber>
+                    <pq:number pqa:number="0" pqa:type="c" />
+                </cl:restartPageNumber>
+                <cl:newPageNumber>
+                    <pq:number pqa:number="1" pqa:type="i" />
+                </cl:newPageNumber>
+            </cl:Page>
+        </pq:array>
+    </cl:pages>
+    <cl:templatePages>
+        <pq:array>
+            <cl:Page pqa:oid="27033472">
+                <cl:comic />
+                <cl:page />
+                <cl:frame>
+                    <pq:rect pqa:x="0.000000" pqa:y="0.000000" pqa:w="595.000000" pqa:h="842.000000" />
+                </cl:frame>
+                <cl:clipToFrame>
+                    <pq:number pqa:number="1" pqa:type="c" />
+                </cl:clipToFrame>
+                <cl:elements>
+                    <pq:array />
+                </cl:elements>
+                <cl:style>
+                    <pq:object-ref pqa:oid="215259120" />
+                </cl:style>
+                <cl:angle>
+                    <pq:number pqa:number="0.000000" pqa:type="f" />
+                </cl:angle>
+                <cl:master />
+                <cl:clipSource />
+                <cl:styleOverrides>
+                    <pq:property-map />
+                </cl:styleOverrides>
+                <cl:lock>
+                    <pq:number pqa:number="0" pqa:type="c" />
+                </cl:lock>
+                <cl:size>
+                    <pq:size pqa:w="595.000000" pqa:h="842.000000" />
+                </cl:size>
+                <cl:restartPageNumber>
+                    <pq:number pqa:number="0" pqa:type="c" />
+                </cl:restartPageNumber>
+                <cl:newPageNumber>
+                    <pq:number pqa:number="1" pqa:type="i" />
+                </cl:newPageNumber>
+            </cl:Page>
+        </pq:array>
+    </cl:templatePages>
+    <cl:viewSettings>
+        <cl:ViewSettings pqa:oid="215223184">
+            <cl:showAlignmentGuides>
+                <pq:number pqa:number="0" pqa:type="c" />
+            </cl:showAlignmentGuides>
+            <cl:showMargins>
+                <pq:number pqa:number="1" pqa:type="c" />
+            </cl:showMargins>
+            <cl:gridInterval>
+                <pq:number pqa:number="15" pqa:type="i" />
+            </cl:gridInterval>
+            <cl:showGrid>
+                <pq:number pqa:number="0" pqa:type="c" />
+            </cl:showGrid>
+            <cl:snapToGrid>
+                <pq:number pqa:number="0" pqa:type="c" />
+            </cl:snapToGrid>
+            <cl:snapTolerance>
+                <pq:number pqa:number="8" pqa:type="i" />
+            </cl:snapTolerance>
+            <cl:showLayoutsAndPhotos>
+                <pq:number pqa:number="1" pqa:type="c" />
+            </cl:showLayoutsAndPhotos>
+            <cl:showPagesAndStyles>
+                <pq:number pqa:number="0" pqa:type="c" />
+            </cl:showPagesAndStyles>
+        </cl:ViewSettings>
+    </cl:viewSettings>
+    <cl:filterDPI>
+        <pq:number pqa:number="150" pqa:type="i" />
+    </cl:filterDPI>
+    <cl:pageName>
+        <pq:string pqa:string="my" />
+    </cl:pageName>
+    <cl:pageSize>
+        <pq:size pqa:w="1440.000000" pqa:h="900.000000" />
+    </cl:pageSize>
+    <cl:portraitMode>
+        <pq:number pqa:number="0" pqa:type="c" />
+    </cl:portraitMode>
+    <cl:importImages>
+        <pq:number pqa:number="1" pqa:type="c" />
+    </cl:importImages>
+    <cl:leftMargin>
+        <pq:number pqa:number="18.000000" pqa:type="f" />
+    </cl:leftMargin>
+    <cl:rightMargin>
+        <pq:number pqa:number="18.000000" pqa:type="f" />
+    </cl:rightMargin>
+    <cl:topMargin>
+        <pq:number pqa:number="41.000000" pqa:type="f" />
+    </cl:topMargin>
+    <cl:bottomMargin>
+        <pq:number pqa:number="18.000000" pqa:type="f" />
+    </cl:bottomMargin>
+    <cl:backgroundColor>
+        <pq:calibrated-white-color-type pqa:w="1.000000" pqa:a="1.000000" />
+    </cl:backgroundColor>
+</cl:Comic>
