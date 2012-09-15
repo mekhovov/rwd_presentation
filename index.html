@@ -335,6 +335,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-04">
+  <aside class="note"><section>
+
+          </section></aside>
   <div data-build>
     <section class="bottomWide dark topic" data-auto>
       <img src="images/topic_1.png" />
@@ -358,15 +361,10 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent comics" data-backgroundid="bg-101">
   <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-               Впервые термин отзывчивый веб-дизайн (Responsive Web Design) был использован 25 мая 2010 года в одноименной статье Итана Маркотта, опубликованной в журнале A List Apart.
-              
-              The term responsive web design was coined by Ethan Marcotte. In his seminal List Apart article (http://www.alistapart.com/articles/responsive-web-design/) he consolidated three existing techniques (flexible grid layout, flexible images,
-              and media and media queries) into one unified approach and named it responsive web design. The term is often used to infer the same meaning as a number of
-              other descriptions such as fluid design, elastic layout, rubber layout, liquid design, adaptive layout, cross-device design, and flexible design.
-
-              Нельзя говорить о адаптивном дизайне, и не упомянуть при этом его создателя, Итана Маркотта (Ethan Marcotte). Если вы не читали его конструктивную статью о адаптивном веб-дизайне, то мы настоятельно рекомендуем вам ознакомиться с ней (серьезно, она обязательна к прочтению). В этой статье Итан обсуждает все ключевые идеи, формирующие адаптивный веб-дизайн; и что на самом деле представляет собой это свойство дизайна с технической точки зрения. Это не просто кусочек технологии, это больше набор техник и идей, которые формируют единое целое. Это и есть главная причина путаницы. Но прямо сейчас мы постараемся развеять все недопонимания и познакомить вас с каждой частью по-отдельности.
+  <aside class="note"><section>
+Итан Маркот написал статью в журнал A List Apart в 2010 году в которой описал ключевые идеи формирующие адаптивный дизайн. Он предложил использовать такие  техники как flexible grid layout, flexible images добавил media query и назвал это все RWD. Надо заметить что RWD это набор техник и идей, новый подход в разработке веб сайтов..
           </section></aside>
+          
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
 </div>
@@ -385,7 +383,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-102">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Отзывчивый веб-дизайн – это технология создания веб-страниц, которая обеспечивает удобство их просмотра на различных устройствах (стационарных компьютерах, ноутбуках, планшетах, смартфонах, телевизорах, имеющих подключение к Интернет (например, через игровую приставку), и т.д.). Целью отзывчивого веб-дизайна является универсальность HTML-разметки веб-сайта для различных устройств. Для того, чтобы веб-сайт был удобно просматриваемым с устройств различных разрешений и форматов, по технологии отзывчивого веб-дизайна не нужно создавать отдельные версии веб-сайта для каждого конкретного типа устройств.
+               Идея состоит в том, что ваш сайт должен смотреться хорошо (красиво) на любом устройстве. Сайт должен как-бы отвечать и подстраиваться под девайс, меняясь (как хамелеон) так, чтобы всегда выглядеть удобно для пользователя. При этом мы создаем только одну версию сайта
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -403,17 +401,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-103">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-                If you think you need to create a "mobile" version of your website—think again! A responsive web design provides one design that looks great on smart phone, desktop, and everything in-between. It will effortlessly respond to the size of the user's screen, providing the best experience possible for both today's and tomorrow's devices.
-
-                Так что же такое адаптивный дизайн на самом деле? На самом деле, лучше будет спросить «Какие проблемы адаптивный дизайн помогает решить?». Итак, как вы, вероятно, уже могли заметить, компьютеры более не являются единственным устройством, через которое люди сидят в интернете. Возможно, мы опорочим свой статус подобным заявлением, но нам кажется, что iPhone является первым мобильным устройством, в котором действительно по-настоящему был реализован веб-браузер. Это устройство дало толчок всему миру мобильных девайсов. Многие другие производители последовали примеру, и в целом изменился весь облик мобильного мира.
-
-                Изменение «ландшафта» веб-браузеров означает также то, что изменились и ожидания пользователей; людям хочется пользоваться интернетом посредством мобильных устройств так же просто, как они делают это с помощью компьютеров. Итак, в ответ на это (извините за каламбур) сообщество веб-дизайнеров начало разрабатывать мобильные версии веб-сайтов. Оглянувшись назад, вряд ли можно сказать, что это было решением проблемы, но в то время эта идея казалась вполне разумной и резонной. У каждого веб-сайта должно было быть две версии: основная версия «для рабочего стола», а также, в качестве бонуса, «мобильная» версия.
-
-                Технология не перестает развиваться, и поэтому, когда рынок мобильных телефонов существенно эволюционировал, появились и другие форм-факторы, и даже стали очень популярными. Вдобавок к телефонам и персональным компьютером, мы получили планшеты, экраны которых были основаны на технологии touch, а также маленькие ноутбуки (нетбуки, если желаете) стали появляться повсюду.
-
-                И дело не только в маленьких экранах. Так же дело обстоит и с большими, высокоточными, дисплеями, которые набирают небывалую популярность. Веб-дизайнеры просто не могли не воспользоваться данным преимуществом.
-
-                В итоге, спектр размеров и разрешений ежедневно расширяется, и вряд ли было бы практичным разрабатывать отдельную версию веб-сайта для каждого разрешения или размера экрана. Именно эту проблему и призван решить адаптивный/реагирующий веб-дизайн.
+                Потому что устройств с которых пользователи заходят в интернет и смотрят сайты становиться все больше и больше и они все разные, очень сложно и дорого писать отдельный сайт для каждого устройства. RWD это новый подход, и  своего рода "сдвиг" в привычных нам подходах создания сайтов. Следуя этой идее можно сделать сайт который будет выглядеть хорошо на существующих девайсах и на девайсах которых еще нет (харпктеристики которых мы еще не знаем)
           </section></aside>
   <!--..................... SLIDE ......................-->
     <div data-build> <section data-auto> </section> </div>
@@ -435,7 +423,8 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-104">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Давайте разделим эти два понятия, mobile дизайн - проектируется для девайсов, например если надо использовать фичи устройства. А Responsive - для контента, чтоб контент всегда выглдел хорошо и был доступен
+
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -452,7 +441,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-105">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               рассказать как не удобно шарить ссылки с мобильных версий сайтов
+               Так сложилось, что мы создаем 2 версии сайтов - для мобильных устройств и для десктопных компьютеров.  В ситуации когда ты смотришь сайт с телефони и хочешь поделиться классной ссылкой с другом - отправляя ее как m.mysite.com/ha-ha друг откроя ее на компьютере ужаснется. Используя RWD можно разрабатывать одну версию сайта
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -473,11 +462,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-106">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               How?
-                Create one version of the site design,
-                code & content that responds to the
-                limitations of the environment (NOT THE DEVICE!)
-                it’s viewed in.
+               Пользователи не должны адаптироваться к твоему сайту, сайт должен адаптироваться к пользователям. 
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -500,9 +485,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-107">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-
-               Don't get set into one form, adapt it and build your <br>
-      own, and let it grow, be like water […] <br>
+            Эта фраза Брюса Ли отлично описывает идеологию RWD
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -522,7 +505,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-108">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-              ..
+              В нашем мире пользователи уже сейчас серфят сайты с множества разнообразных девайсов, используя RWD подход мы можем больше не беспокоится о том как сайт будет смотреться на каждом конкретном устройстве из множества доступных. 
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -540,6 +523,11 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-06">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+              [ToDo]: ...
+          </section></aside>
+  <!--..................... SLIDE ......................-->
   <div data-build>
     <section class="bottomWide dark topic" data-auto>
       <img src="images/topic_2.png" />
@@ -564,12 +552,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-109">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-            Ранее мы упоминали о том, что адаптивный дизайн – это не отдельная часть технологии, а свод различных техник и идей. Теперь, когда у нас более четкое представление о проблеме, которую можно решить посредством данной технологии, давайте поближе познакомимся с каждой её частью.
-
-               Отзывчивый веб-дизайн базируется на 3 принципах:
-                  Гибкий макет на основе сетки (flexible, grid-based layout)
-                  Гибкие изображения (flexible images)
-                  Медиазапросы (CSS3 media queries)
+            Совокупность этих 3-х техник формирует RWD. Рассмотрим каждую в отдельности
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -589,6 +572,10 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-09">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+          </section></aside>
+  <!--..................... SLIDE ......................-->
   <div data-build>
     <section class="bottomWide dark topic" data-auto>
       <img src="images/topic_2.png" />
@@ -613,16 +600,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Первая ключевая идея адаптивного дизайна заключается в использовании так называемых гибких сеток. Навскидку, создание «резинового шаблона» (который расширяется вместе со страницей) не было настолько популярным, как создание фиксированных шаблонов (когда шаблон страницы имеет четко указанные параметры ширины и высоты, а при больших размерах окна браузера просто выравнивается по центру). Тем не менее, если учитывать разнообразие расширений и размеров экранов, представленных на сегодняшнем рынке, преимущество резиновых шаблонов становится настолько сильным, что его нельзя игнорировать.
 
-                Гибкие сетки на несколько шагов опережают традиционные резиновые шаблоны. Вместо разработки шаблона, основанного на твердо указанных пикселях или на процентном соотношении, гибкая сетка более корректно подходит к построению шаблона с точки зрения пропорций. Таким образом, когда шаблон сжимается до размеров маленького мобильного устройства или растягивается до размеров большого монитора, все элементы шаблона также уменьшаются в размерах, в зависимости друг от друга.
-
-                Для того чтобы высчитать пропорции для каждого элемента на странице, вы должны разделить указанный элемент по контексту. На данный момент наилучшим способом является создание высококачественного (высокоточного) наброска в редакторе изображений, позволяющем работать с пиксельной точностью (например, Photoshop). Имея свой набросок высокой точности, вы можете измерить элемент на странице, и разделить его на полную ширину страницы. Например, если ширина вашего шаблона равна 960 пикселей, то это и будет значение вашего элемента «container». Затем давайте предположим, что наш указанный элемент имеет ширину в 300 пикселей. Если мы разделим результат на 100, то получим процентное соотношение равное 31.25%. Его мы и можем применить к нашему элементу. Вот наш расчет:
-
-
-                Если в вашем шаблоне цифры не такие аккуратные, и имеются различные дополнительные значения в виде сотых, то настоятельно рекомендуем вам не округлять эти значения. Мы, люди, любим красивые цифры, но наши компьютеры (а особенно наши дизайны) любят математическую точность.
-
-                Гибкие сетки очень важны в процессе разработки адаптивного дизайна, но они могут помочь нам не во всех случаях. Когда ширина браузерного окна становится совсем небольшой, дизайн начнет преломляться. Например, полноценный 3-колонный шаблон вряд ли будет нормально отображаться на маленьком экране мобильного устройства. К счастью, адаптивный дизайн и об этом позаботился… за счет media queries
+            Fluid layout - лэйаут который маштабируется. Вместо пикселей используем %. Пусть сайт сам адаптируется к размеру экрана
+               
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -648,7 +628,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent comics" data-backgroundid="bg-110">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-              ..
+              
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -669,13 +649,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Text size adjust
-               Add text-size-adjust declarations to so declared text sizes are always respected
-               html { 
-                    -webkit-text-size-adjust: 100%;
-                    -ms-text-size-adjust: 100%; 
-                }
-
+            Начнем со шрифтов. Представим что у нас есть заголовок h1 в котором есть ссылка.               
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -707,18 +681,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Small Hack 
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Text size adjust
-               Add text-size-adjust declarations to so declared text sizes are always respected
-               html { 
-                    -webkit-text-size-adjust: 100%;
-                    -ms-text-size-adjust: 100%; 
-                }
+               Начнем с маленького хака который упростит наши расчеты. 
 
           </section></aside>
   <!--..................... SLIDE ......................-->
@@ -770,6 +739,8 @@ h1 a {
 <div class="slide transparent comics" data-backgroundid="bg-112">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
+
+            [ToDo]: …
               TARGET ÷ CONTEXT = RESULT
               ELEMENT ÷ CONTAINER = RESULT
           </section></aside>
@@ -783,7 +754,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  Target and Context
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-13">
@@ -798,36 +769,16 @@ h1 a {
 
 
 
-
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * ToDo: fix
- *
--->
-<!-- <div class="slide transparent centercontents" data-backgroundid="bg-01">
-  <section >
-    <img class="img_screen" src="images/_tmp_/11.png" />
-  </section>
-</div>
- -->
-
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * 
+ * px -> em
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               TARGET ÷ CONTEXT = RESULT
-                ELEMENT ÷ CONTAINER = RESULT
+               Начнем с заголовка h1. Его размер = 30px, размер дефолтного контекста = 10px (благодаря нашему хаку). Подставляем все в формулу - получаем результат. Не забываем в комменте писать ичходные данные
+
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -862,14 +813,15 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * px -> em
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               TARGET ÷ CONTEXT = RESULT
-                ELEMENT ÷ CONTAINER = RESULT
+               то же самое проделаем с ссылкой, только контейнер теперь у нас будет h1. Значения не округляем
+              В результате мы получили заголовок в котором ссылка и это все будет увеличиваясь и уменьшаясь сохранять пропорции
+
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -914,7 +866,7 @@ h1 a {
 <div class="slide transparent comics" data-backgroundid="bg-111">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-              
+              Вот как это выглядит схематически
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto> </section> </div>
@@ -929,7 +881,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-12">
@@ -947,7 +899,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-14">
@@ -962,7 +914,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-12">
@@ -983,7 +935,9 @@ h1 a {
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               представим наш контейнер и сайдбар. Первый шаг - сделаем контейнеру max-width
+рассмотрим на примере сайдбара
+
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1025,7 +979,7 @@ h1 a {
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Посчитаем значение сайдбара подставив в формулу
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1064,13 +1018,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Margin & padding
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               Для паддингов берем размер самомго элемента
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1091,15 +1045,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * How to find %
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-              
-                Dimensions expressed in proportional terms.
-                Percentages and ems used instead of pixels.
+              Начните с пикселей и применяйте волшебную формулу, о которой далее получите %
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1121,6 +1073,11 @@ h1 a {
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-22">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+              Вот как это выглядит схематически
+          </section></aside>
+  <!--..................... SLIDE ......................-->
   <div data-build>
     <section class="bottomWide dark topic" data-auto>
       <img src="images/topic_2.png" />
@@ -1139,7 +1096,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-15">
@@ -1155,7 +1112,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  Flexible images
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-16">
@@ -1170,7 +1127,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  Background images
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-15">
@@ -1192,9 +1149,7 @@ h1 a {
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Images that re-size with the browser.
-                HTML5 Video and even flash can become responsive.
-
+              Все что нам надо сделать - max-width: 100%. То же самое сделаем для всех элементов
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1226,17 +1181,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Flexible Images
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Подстраивают свои размеры под блок родителя. Основная идея в неочевидном применении свойства { max-width: 100% }. Изображение с img { max-width: 100% } никогда не вылезет из своего блока-родителя.
-
-                Если блок-родитель меньше, чем размеры img, то изображение пропорционально уменьшится. Этот принцип применим как для img, так и для embed, object, video.
-
-                http://www.alistapart.com/articles/fluid-images/
+               [ToDo]: …
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1254,13 +1205,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Background images
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               [ToDo]: …
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1303,25 +1254,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Media queries: first query
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Вторая часть адаптивного дизайна заключается в CSS3 media queries, которые на данный момент поддерживаются почти во всех современных браузерах. Если вы не знакомы с CSS3 media queries, то эта технология в основном позволяет вам собирать данные о посетителе сайта, и использовать их для применения соответствующих стилей CSS. В нашем случае мы ориентированы на свойство min-width, которое позволяет нам применять определенные CSS-стили, если размер окна браузера подпадает под определенную ширину, которую мы можем задать. Если мы хотели применить стилизацию к мобильным телефонам, то наш media query выглядел бы примерно так:
-               ..
-               Используя серию media queries типа таких, мы можем и дальше делать нашу работу, даже при больших разрешениях. Мы рекомендуем вам использовать следующие наборы разрешений в пикселях:
-
-                * 320px
-                * 480px
-                * 600px
-                * 768px
-                * 900px
-                * 1200px
-
-                Опять же, это всего лишь наша рекомендация, и она может служить вам в качестве точки отсчета. В идеале вам следовало бы настроить шаблон так, чтобы он идеально отображался на любом устройстве, но зачастую приходится ограничивать направления, в которые стоит вложить силы. С практической точки зрения, разрешения, на которые направлен дизайн, будут основаны на разрешениях, которые используют люди. В целом, когда вы просчитываете, какие разрешения нужно учитывать, вы должны руководствоваться по собственному усмотрению. Если учитывать больше разрешений, то это займет гораздо больше времени, и важно учитывать, что вы не бессмертный.
-
+                Когда @media отсутсвует и есть flexidle grid это сайт для любого разрешения
 
           </section></aside>
   <!--..................... SLIDE ......................-->
@@ -1340,56 +1279,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Media queries
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Нужны для отображения макета, оптимизированного под разрешение, с которого в данный момент этот сайт смотрится. Это часть стандарта CSS, которая позволяет применять стили на основе информации о разрешении устройства.
-
-                Например, так:
-
-                /* начало css */
-                 
-                Здесь базовые стили для глупых браузеров. Например, для телефонов не high-end уровня. Pocket Internet Explorer для Windows Mobile 6.5 здесь же :).
-                 
-                @media only screen and (min-width: 480px) {
-                 
-                Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.
-                 
-                }
-                 
-                @media only screen and (min-width: 768px) {
-                 
-                Планшеты в режиме portrait.
-                 
-                }
-                 
-                @media only screen and (min-width: 992px) {
-                 
-                Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.
-                 
-                }
-                 
-                @media only screen and (min-width: 1382px) {
-                 
-                Десктоп с большими разрешениями, телевизоры.
-                 
-                }
-                 
-                 
-                /* конец css */
-
-
-                media queries понимают все разумные браузеры. Для ie же есть Respond.js
-
-                http://caniuse.com/#search=media%20queries
-                https://github.com/scottjehl/Respond
-
-                Through media queries, the browser is served different styles or stylesheetsbased on the dimensions and the device.<br>
-                The @mediaconstruct allows style sheet rules for various media in the same style sheet.<br>
-                An @mediarule specifies the target media types (separated by commas) of a set of statements (delimited by curly braces).
+              Это часть CSS3 они позволяют применять стили на лету в зависимости от разрешения браузера. Меняя разрешение браузера (тем самым эмулируя разные девайсы) мы можем менять положение элементов на странице автоматически. Например если юзер смотрит наш сайт с телефона - то поместим меню вверху, а если с ноутбука - то меню слева. Благодаря изменению позиций элементов мы делаем сайт удобным
 
           </section></aside>
   <!--..................... SLIDE ......................-->
@@ -1414,6 +1310,12 @@ h1 a {
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-17">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+              вот как это выглядит схемотически
+
+          </section></aside>
+  <!--..................... SLIDE ......................-->
   <div data-build>
     <section data-auto>
     </section>
@@ -1430,14 +1332,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Media features
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               < link rel="stylesheet" href="css/style.css" 
-  media="screen and (min-device-width: 768px)" />
+               мы также можем скрывать ненужные эл-ты
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1470,10 +1371,15 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  Media features
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-15">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               Вот как схематически выглядит все вместе
+          </section></aside>
+  <!--..................... SLIDE ......................-->
   <div data-build>
     <section data-auto>
     </section>
@@ -1486,10 +1392,11 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-16">
+  
   <div data-build>
     <section data-auto>
     </section>
@@ -1504,7 +1411,7 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- *  TOD: Fix image !!
+ *  
  *
 -->
 <div class="slide transparent image" data-backgroundid="bg-21">
@@ -1519,15 +1426,16 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Media features 
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               это можем юзать
           </section></aside>
   <!--..................... SLIDE ......................-->
+  
   <section>
 
     <header>Media Features </header>
@@ -1549,20 +1457,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Popular breakpoints
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-              320px Phone - portrait
-              480px Phone - landscape
-              600px 7” tablets - portrait
-              768px 10” tablets - portrait
-              980px #blue-banner-bar width
-              1024px 10” tablets - landscape, “desktop”
-              ...
-            We can adapt our design to specific range of devices without changing the content
+              
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1589,16 +1490,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Breakpoints
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-              можно просто скрывать не нужные эл-ты
-              .nomed {
-                display: none; 
-              }
+               Используйте когда вам не нравиться как выглядит каш сайт
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1619,13 +1517,12 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Browser compatibility
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1644,13 +1541,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Media queries in css
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               { notes goes here..}
+               так можно подключать css в зависимости от разрешения
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1676,15 +1573,13 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * 
+ * Modile resizing
  *
 -->
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               ...
-
-
+               не дает масштабировать сайт когда меняешь ориентацию девайса
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1741,13 +1636,7 @@ h1 a {
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-            Это техника, при которой сайт верстается сначала для устройств с меньшими возможностями, а затем с помощью media queries добавляются возможности и плюшки.
-
-            Так глупые браузеры без media queries получат самый простой контент (например, на мобильных телефонах). А более продвинутые поймут и отрисуют страницу, беря во внимание media queries.
-
-            http://yiibu.com/about/site/
-
-               To name just a few! However, as Mr. Marcotte and others have eloquently argued, a truly responsive methodology is actually more than merely altering the layout of a site based upon viewport sizes. Instead, it is to invert our entire current approach to web design. Instead of beginning with a fixed width desktop site design and scaling it down and re-flowing the content for smaller viewports, we should design for the smallest viewport first and then progressively enhance the design and content for larger viewports.
+            
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1773,14 +1662,7 @@ h1 a {
 <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-               Think about what your pages do and not what they look like
-              Start with a small screen first and design from
-              the content out.
-              When you’re forced to be simple, you’re forced
-              to face the real problem. When you can’t
-              deliver ornament, you have to deliver
-              substance.
-              Decisions made for small screen benefit the larger screen
+               
           </section></aside>
   <!--..................... SLIDE ......................-->
   <section>
@@ -1843,39 +1725,6 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * ToDo: fix
- *
--->
-<!-- <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <section >
-    <img class="img_screen" src="images/_tmp_/16.png" />
-  </section>
-</div>
-
- -->
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * ToDo: fix
- *
--->
-<!-- <div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <section >
-    <img class="img_screen" src="images/_tmp_/17.png" />
-  </section>
-</div>
-
- -->
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
  * 
  *
 -->
@@ -1898,12 +1747,12 @@ h1 a {
       <a href="http://fittextjs.com" target="_blank">FitWids</a>.<br>
       <a href="http://modernizr.com" target="_blank">Modernizr</a><br>
 
-      ..<br>
+      <!-- ..<br>
       enhance.js, 
       modernizr.js,
       yepnope.js, 
       <a href="http://adaptive-images.com" target="_blank">http://adaptive-images.com</a>, 
-      <a href="https://github.com/scottjehl/picturefill" target="_blank">https://github.com/scottjehl/picturefill</a><br>
+      <a href="https://github.com/scottjehl/picturefill" target="_blank">https://github.com/scottjehl/picturefill</a><br> -->
       
   </section>
 </div>
