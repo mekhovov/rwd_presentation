@@ -13,7 +13,7 @@ get '/qa' do
   haml :qa, :layout => :qa_layout
 end
 
-get '/slide65' do
+get '/slide66' do
   redirect '/qa'
 end
 
