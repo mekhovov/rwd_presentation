@@ -103,6 +103,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
       <div id="bg-last" class="background"></div>
 
+      <div id="bg-rwd_demo_1" class="background"></div>
+      <div id="bg-rwd_demo_2" class="background"></div>
+
 
 <!=========================================== The Beginning ===================================================
  *
@@ -331,21 +334,17 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * Why?
+ * Be water, my friend
  *
 -->
-<div class="slide transparent comics" data-backgroundid="bg-103">
+<div class="slide transparent comics" data-backgroundid="bg-107">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-                Потому что устройств с которых пользователи заходят в интернет и смотрят сайты становиться все больше и больше и они все разные, очень сложно и дорого писать отдельный сайт для каждого устройства. RWD это новый подход, и  своего рода "сдвиг" в привычных нам подходах создания сайтов. Следуя этой идее можно сделать сайт который будет выглядеть хорошо на существующих девайсах и на девайсах которых еще нет (харпктеристики которых мы еще не знаем)
+            Эта фраза Брюса Ли отлично описывает идеологию RWD
           </section></aside>
   <!--..................... SLIDE ......................-->
-    <div data-build> <section data-auto> </section> </div>
+  <div data-build> <section data-auto> </section> </div>
 </div>
-
-
-
-
 
 
 
@@ -369,6 +368,8 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+
+
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
  * 
@@ -380,7 +381,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
                Так сложилось, что мы создаем 2 версии сайтов - для мобильных устройств и для десктопных компьютеров.  В ситуации когда ты смотришь сайт с телефони и хочешь поделиться классной ссылкой с другом - отправляя ее как m.mysite.com/ha-ha друг откроя ее на компьютере ужаснется. Используя RWD можно разрабатывать одну версию сайта
           </section></aside>
   <!--..................... SLIDE ......................-->
-  <div data-build> <section data-auto> </section> </div>
+  <div data-build> <section data-auto>
+    <a href="http://www.deseretnews.com/mobile/" target="_blank" style="position:absolute; bottom:0; right:0; font-size:65px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
+  </section> </div>
 </div>
 
 
@@ -413,19 +416,23 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+
+
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
- * Be water, my friend
+ * Why?
  *
 -->
-<div class="slide transparent comics" data-backgroundid="bg-107">
+<div class="slide transparent comics" data-backgroundid="bg-103">
   <!--..................... NOTES ......................-->
           <aside class="note"><section>
-            Эта фраза Брюса Ли отлично описывает идеологию RWD
+                Потому что устройств с которых пользователи заходят в интернет и смотрят сайты становиться все больше и больше и они все разные, очень сложно и дорого писать отдельный сайт для каждого устройства. RWD это новый подход, и  своего рода "сдвиг" в привычных нам подходах создания сайтов. Следуя этой идее можно сделать сайт который будет выглядеть хорошо на существующих девайсах и на девайсах которых еще нет (харпктеристики которых мы еще не знаем)
           </section></aside>
   <!--..................... SLIDE ......................-->
-  <div data-build> <section data-auto> </section> </div>
+    <div data-build> <section data-auto> </section> </div>
 </div>
+
+
 
 
 
@@ -596,6 +603,273 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
 
 
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *  
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-12">
+  <div data-build>
+    <section data-auto>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *  
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-14">
+  <div data-build>
+    <section data-auto>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Flex your layout
+ *
+-->
+<div class="slide transparent comics" data-backgroundid="bg-111">
+
+  <div data-build> <section data-auto> </section> </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               представим наш контейнер и сайдбар. Первый шаг - сделаем контейнеру max-width
+рассмотрим на примере сайдбара
+
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header>Fluid layout </header>
+
+
+<pre>.container {
+  <b>width: 900px;</b>
+}
+.sidebar {
+  float: left;
+  width: 250px;
+}
+  
+</pre>
+
+<pre>.container {
+  <b>max-width: 900px;</b>
+}
+
+</pre>
+
+
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *  warning
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-10">
+  <div data-build>
+    <section data-auto>
+    </section>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * target / context = result
+ *
+-->
+<div class="slide transparent comics" data-backgroundid="bg-112">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+              TARGET ÷ CONTEXT = RESULT <br>
+              ELEMENT ÷ CONTAINER = RESULT
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <div data-build> <section data-auto> </section> </div>
+</div>
+
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *  Target and Context
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-13">
+  <div data-build>
+    <section data-auto>
+    </section>
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               Посчитаем значение сайдбара подставив в формулу
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+
+
+
+<pre><b>TARGET  ÷   CONTEXT  =  RESULT </b>
+</pre>
+
+
+<pre>/* &darr; sidebar */
+  <b>250 ÷ 900 = 0.27777777777778</b>
+/*       &uarr; container */
+
+</pre>
+
+<pre>
+.sidebar {
+  float: left;
+  width: <b>27.777777777778%</b>; /* 250/900 */
+}                     /* &uarr; don't round */
+</pre>
+
+<pre>ELEMENT  ÷  CONTAINER  =  RESULT
+</pre>
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *  demo 1
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-rwd_demo_1">
+  <div data-build>
+    <section data-auto style="position:absolute;bottom:0; right:0px; background:none">
+      <a href="demo-1" target="_blank" style="position:relative; font-size:45px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
+    </section>
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Margin & padding
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               Для паддингов берем размер самомго элемента
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+
+
+<header>Margin</header>
+<h3><span class="mark_green">context  → </span> element’s container</h3>
+
+<br>
+<header>Padding</header>
+<h3><span class="mark_red">context  → </span> element itself</h3>  
+
+  </section>
+</div>
+
+
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * How to find %
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+              Начните с пикселей и применяйте волшебную формулу, о которой далее получите %
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+
+    <header>How to find % </header>
+
+        • Begin with a pixel based layout.<br>
+        • Use formula (calc margins and padding)<br>
+        • Add a comment of your original calculation. 
+  </section>
+</div>
+
+
+
+
+
+
+
+
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
  * Flex your font
@@ -690,53 +964,6 @@ h1 a {
 
 
 
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *  warning
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-10">
-  <div data-build>
-    <section data-auto>
-    </section>
-  </div>
-</div>
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * target / context = result
- *
--->
-<div class="slide transparent comics" data-backgroundid="bg-112">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-              TARGET ÷ CONTEXT = RESULT <br>
-              ELEMENT ÷ CONTAINER = RESULT
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <div data-build> <section data-auto> </section> </div>
-</div>
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *  Target and Context
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-13">
-  <div data-build>
-    <section data-auto>
-    </section>
-  </div>
-</div>
 
 
 
@@ -757,8 +984,7 @@ h1 a {
   <!--..................... SLIDE ......................-->
   <section>
 
-<pre>TARGET  ÷   CONTEXT  =  RESULT 
-<b>ELEMENT ÷ CONTAINER = RESULT</b>
+<pre><b>ELEMENT ÷ CONTAINER = RESULT</b>
 </pre>
 
 <pre>h1 {
@@ -773,9 +999,9 @@ h1 a {
 
 </pre>
 
-<pre> h1 {              /*  &darr; comment will save you */
+<pre> h1 {
   font-size: <b>3em</b>; /* 30px/10px */
-}
+}                 /*  &uarr; comment will save you */
 </pre>
 
 
@@ -806,7 +1032,7 @@ h1 a {
 </pre>
 
 <pre>h1 a {
-  font-size: <b>14px</b>;   /* &rarr; need to convert */
+  font-size: <b>14px</b>;
 }
 </pre>
 
@@ -817,7 +1043,6 @@ h1 a {
 
 <pre>h1 a {
   font-size: <b>0.46666667em</b>; /* 14px/30px */    
-                /* &uarr; don't round */
 }
 </pre>
 
@@ -832,208 +1057,6 @@ h1 a {
 
 
 
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * Flex your layout
- *
--->
-<div class="slide transparent comics" data-backgroundid="bg-111">
-
-  <div data-build> <section data-auto> </section> </div>
-</div>
-
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *  
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-12">
-  <div data-build>
-    <section data-auto>
-    </section>
-  </div>
-</div>
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *  
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-14">
-  <div data-build>
-    <section data-auto>
-    </section>
-  </div>
-</div>
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *  
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-12">
-  <div data-build>
-    <section data-auto>
-    </section>
-  </div>
-</div>
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * 
- *
--->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-               представим наш контейнер и сайдбар. Первый шаг - сделаем контейнеру max-width
-рассмотрим на примере сайдбара
-
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <section>
-    <header>Fluid layout </header>
-
-
-<pre>.container {
-  <b>width: 900px;</b>
-}
-.sidebar {
-  float: left;
-  width: 250px;
-}
-  
-</pre>
-
-<pre>.container {
-  <b>max-width: 900px;</b>
-}
-
-</pre>
-
-
-  </section>
-</div>
-
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * 
- *
--->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-               Посчитаем значение сайдбара подставив в формулу
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <section>
-
-    <header>Fluid layout </header>
-
-
-<pre><b>target ÷ context = result</b>
-</pre>
-
-
-<pre>/* &darr; sidebar */
-  <b>250 ÷ 900 = 0.27777777777778</b>
-/*       &uarr; container */
-
-</pre>
-
-<pre>
-.container{
-  max-width: 900px;
-}
-.sidebar{
-  float: left;
-  width: <b>27.777777777778%</b>; /* 250/900 */
-}
-</pre>
-
-  </section>
-</div>
-
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * Margin & padding
- *
--->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-               Для паддингов берем размер самомго элемента
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <section>
-
-    <header>Margin & Padding </header>
-
-• Margins:  context is the width of the element’s container.<br>
-
-• Padding: context is the width of the element itself. 
-
-  </section>
-</div>
-
-
-
-
-
-
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * How to find %
- *
--->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-              Начните с пикселей и применяйте волшебную формулу, о которой далее получите %
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <section>
-
-    <header>How to find % </header>
-
-        • Begin with a pixel based layout. These pixels will become the basis for your percentage calculations.<br>
-        • Divide the target pixel value by the pixel value of the parent. Don’t forget margins and padding.<br>
-        • Add a comment of your original calculation. (this will save you)
-  </section>
-</div>
 
 
 
@@ -1091,19 +1114,6 @@ h1 a {
 
 
 
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- *  Background images
- *
--->
-<div class="slide transparent image" data-backgroundid="bg-15">
-  <div data-build>
-    <section data-auto>
-    </section>
-  </div>
-</div>
-
-
 
 
 
@@ -1145,6 +1155,21 @@ h1 a {
 
 
 
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ *  demo 1
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-rwd_demo_1">
+  <div data-build>
+    <section data-auto style="position:absolute;bottom:0; right:0px; background:none">
+      <a href="demo-1" target="_blank" style="position:relative; font-size:45px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
+    </section>
+  </div>
+</div>
+
+
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
  * Flexible Images
@@ -1160,10 +1185,10 @@ h1 a {
 
     <header>Flexible Images</header>
 
-        • Images are not given a defined height and width in the HTML<br>
-        • Images are sized based on the width of it’s parent container <br>
-        • Images are defined with a width of 100% in the CSS. <br>
-        • This also applies to video, embed and object tags
+        • not given a defined height and width<br>
+        • sized based on the width of parent container <br>
+        • defined with a width of 100% <br>
+        • applies to video, embed and object tags
   </section>
 </div>
 
@@ -1184,10 +1209,9 @@ h1 a {
 
     <header>Background images </header>
 
-      • Background images can be sized using the background-size property. (Yay!)<br>
+      • background images can be sized using the background-size property. (Yay!)<br>
       • not all browsers support background-size (Boo.)<br>
       • JS workarounds exist for older browsers.<br>
-      • Consider creative cropping via the overflow property
 
        
   </section>
@@ -1258,7 +1282,9 @@ h1 a {
   <section>
     <header>Media queries</header>
 
-    Media queries allow you to create break points based on various browser criteria. <br>
+    <span class="mark_yellow">Media Queries</span> allow you <br>
+    to create <span class="mark_green">break points</span> <br>
+    based on various browser criteria. <br>
 
   </section>
 </div>
@@ -1281,6 +1307,7 @@ h1 a {
     </section>
   </div>
 </div>
+
 
 
 
@@ -1379,35 +1406,6 @@ h1 a {
 
 
 
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * Media features 
- *
--->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-               это можем юзать
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  
-  <section>
-
-    <header>Media Features </header>
-
-      • width <br>
-      • height <br>
-      • device-width <br>
-      • device-height <br>
-      • orientation <br>
-      • aspect-ratio <br>
-      • device-aspect-ratio <br>
-
-  </section>
-</div>
-
-
-
 
 
 <!--------------------------------------- Slide  -------------------------------------------------------
@@ -1445,6 +1443,51 @@ h1 a {
 
 <!--------------------------------------- Slide  -------------------------------------------------------
  *
+ *  demo 2
+ *
+-->
+<div class="slide transparent image" data-backgroundid="bg-rwd_demo_2">
+  <div data-build>
+    <section data-auto style="position:absolute;bottom:0; right:0px; background:none">
+      <a href="demo" target="_blank" style="position:relative; font-size:45px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
+    </section>
+  </div>
+</div>
+
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Media features 
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+               это можем юзать
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  
+  <section>
+
+    <header>Media Features </header>
+
+      <span class="mark_yellow">width </span>
+      <span class="mark_green"> height </span>
+      <span class="mark_red"> device-width </span>
+      <span class="mark_blue"> device-height </span>
+      <span class="mark_red"> orientation </span>
+      <span class="mark_green"> aspect-ratio </span>
+      <span class="mark_yellow"> device-aspect-ratio </span>
+
+  </section>
+</div>
+
+
+
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
  * Breakpoints
  *
 -->
@@ -1457,11 +1500,11 @@ h1 a {
   <section>
 
     <header>Breakpoints</header>
-      It’s not about the DEVICE <br>
-      It’s about CONTENT
+      <span class="mark_yellow">It’s not about</span> <span class="mark_red">DEVICE</span> <br>
+      <span class="mark_yellow">It’s about</span> <span class="mark_green">CONTENT</span>
       <br><br>
-      Use break point<br>
-      When you don't like <br>
+      use break point<br>
+      when you don't like <br>
       how your content looks like 
 
   </section>
@@ -1623,8 +1666,8 @@ h1 a {
   <section>
 
     <header>layout ≠ content</header>
-      CONTENT FIRST
-      <hr>
+      <span class="mark_green">CONTENT</span> <span class="mark_red">FIRST</span>
+      <br>
       1. Build your content<br>
       2. Add semantic structure<br>
       3. Add the presentation <br>
@@ -2007,10 +2050,10 @@ h1 a {
 
     <header>CONCLUSION</header>
       
-      • Responsive design offers a wide range of new possibilities.  <br>
-      • One site accessible anywhere. <br>
-      • Can be used today with appropriate fallbacks for older devices/browsers. <br>
-      • No reason not to utilise this in development <br>
+      • Responsive design offers a wide range of  <span class="mark_yellow">new possibilities</span>.  <br>
+      •  <span class="mark_blue">One site</span> accessible anywhere. <br>
+      •  <span class="mark_green">Can be used today</span> with appropriate fallbacks for older devices/browsers. <br>
+      •  <span class="mark_purple">No reason not to utilise</span> this in development <br>
       
   </section>
 </div>

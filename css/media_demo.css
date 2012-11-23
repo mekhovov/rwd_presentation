@@ -1,38 +1,4 @@
-/************************************************************************************
-smaller than 980
-*************************************************************************************/
-@media screen and (max-width: 980px) {
 
-	/* pagewrap */
-	#pagewrap {
-		width: 95%;
-	}
-
-	/* content */
-	#content {
-		width: 60%;
-		padding: 3% 4%;
-	}
-
-	/* sidebar */
-	#sidebar {
-		width: 30%;
-	}
-	#sidebar .widget {
-		padding: 8% 7%;
-		margin-bottom: 10px;
-	}
-
-	/* embedded videos */
-	.video embed,
-	.video object,
-	.video iframe {
-		width: 100%;
-		height: auto;
-		min-height: 300px;
-	}
-
-}
 
 /************************************************************************************
 smaller than 650
@@ -101,6 +67,7 @@ smaller than 650
 	/* embedded videos */
 	.video embed,
 	.video object,
+	.video video,
 	.video iframe {
 		min-height: 250px;
 	}
@@ -127,5 +94,16 @@ smaller than 560
 		display: none;
 	}
 
+	#sidebar .widget {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	#sidebar .widget li {
+		display: inline;
+		margin-right: 15px;
+	}
+	h1.rwd {
+  font-size: 1.5em;
+	}
 }
 

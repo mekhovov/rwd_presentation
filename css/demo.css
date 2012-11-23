@@ -166,6 +166,7 @@ MAIN NAVIGATION
 	position: absolute;
 	left: 0;
 	bottom: 0;
+	font-size: 14px;
 	z-index: 100;
 	/* gradient */
 	background: #6a6a6a url(/images/nav-bar-bg.png) repeat-x;
@@ -258,6 +259,7 @@ SIDEBAR
 	width: 280px;
 	float: left;
 	margin: 30px 10px 0 0;
+	font-size: 13px;
 }
 .widget {
 	background: #fff;
@@ -273,6 +275,7 @@ SIDEBAR
 	box-shadow: 0 1px 3px rgba(0,0,0,.4);
 }
 .widgettitle {
+	font-size: 14px;
 	margin: 0 0 5px;
 	padding: 0;	
 }
@@ -318,3 +321,61 @@ CLEARFIX
 .clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 .clearfix { display: inline-block; }
 .clearfix { display: block; zoom: 1; }
+
+
+
+
+.video {
+	margin-top: 10px;
+}
+
+h1.rwd a {
+	color: #026acb;
+}
+
+
+
+
+h1.rwd {
+  font-size: 1.8em;
+}
+h1.rwd a {
+  font-size: 0.5em;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* pagewrap */
+	#pagewrap {
+		width: 95%;
+	}
+
+	/* content */
+	#content {
+		width: 60%;
+		padding: 3% 4%;
+	}
+
+	/* sidebar */
+	#sidebar {
+		width: 30%;
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	/* embedded videos */
+	.video embed,
+	.video object,
+	.video video,
+	.video iframe {
+		width: 100%;
+		height: auto;
+		min-height: 300px;
+	}
