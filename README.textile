@@ -1,1 +1,5 @@
 h1. Responsive Web Design: one site for many devices
+
+Day by day, the number of devices, platforms, and browsers that need to work with your site grows. Responsive web design represents a fundamental shift in how we’ll build websites for the decade to come.
+I'll show you how to create one site that looks great on all devices like mobile phone, iPad, notebook, PC, TV etc...
+In my speech I'll try to avoid boring technical details and show the point in some funny way.
