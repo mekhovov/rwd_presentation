@@ -382,7 +382,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
           </section></aside>
   <!--..................... SLIDE ......................-->
   <div data-build> <section data-auto>
-    <a href="http://www.deseretnews.com/mobile/" target="_blank" style="position:absolute; bottom:0; right:0; font-size:65px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
+    <a href="http://www.deseretnews.com/mobile/" target="_blank" style="position:absolute; bottom:0; left:0; font-size:65px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
   </section> </div>
 </div>
 
@@ -591,9 +591,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
   <section>
 
     <header>Fluid Grids</header>
-        • Fluid layouts - layouts that scale.<br>
-        • Instead of based on pixels, your layouts are percentage based.<br>
-        • Allows your site to adapt to screen sizes in between the ones you’re targeting
+        • Fluid layouts - layouts that <span class="mark_red">scale</span><br>
+        • Instead of based on pixels, your layouts are <span class="mark_green">percentage</span> based<br>
+        • Allows your site to <span class="mark_yellow">adapt to screen sizes</span> in between the ones you’re targeting
   </section>
 </div>
 
@@ -613,7 +613,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-12">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -631,7 +631,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-14">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -804,7 +804,7 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 -->
 <div class="slide transparent image" data-backgroundid="bg-rwd_demo_1">
   <div data-build>
-    <section data-auto style="position:absolute;bottom:0; right:0px; background:none">
+    <section data-auto style="position:absolute;bottom:-15px; left:220px; background:none">
       <a href="demo-1" target="_blank" style="position:relative; font-size:45px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
     </section>
   </div>
@@ -857,9 +857,9 @@ Author: Eric Bidelman (ericbidelman@chromium.org)
 
     <header>How to find % </header>
 
-        • Begin with a pixel based layout.<br>
+        • Begin with a pixel based layout<br>
         • Use formula (calc margins and padding)<br>
-        • Add a comment of your original calculation. 
+        • Add a comment of your original calculation
   </section>
 </div>
 
@@ -909,7 +909,7 @@ html
 <pre>
 <b>&lt;h1></b>
   Hug me, or I shall to destroy you!
-    <b>&lt;a href="#"></b>The Cute Little Dead Girl.<b>&lt;/a></b>
+  <b>&lt;a href="#"></b>The Cute Little Dead Girl.<b>&lt;/a></b>
 <b>&lt;/h1></b>
 </pre>
 
@@ -950,6 +950,7 @@ h1 a {
 <b>html</b> {
   font-size: <b>16px</b>;
 }
+
 <b>body</b> {
   font-size: <b>62.5%</b>; /* 1em = 10px */
 }
@@ -987,7 +988,7 @@ h1 a {
 <pre><b>ELEMENT ÷ CONTAINER = RESULT</b>
 </pre>
 
-<pre>h1 {
+<pre><b>h1</b> {
   font-size: <b>30px</b>;
 }
 </pre>
@@ -999,7 +1000,7 @@ h1 a {
 
 </pre>
 
-<pre> h1 {
+<pre> <b>h1</b> {
   font-size: <b>3em</b>; /* 30px/10px */
 }                 /*  &uarr; comment will save you */
 </pre>
@@ -1031,7 +1032,7 @@ h1 a {
 <pre><b>ELEMENT ÷ CONTAINER = RESULT</b>
 </pre>
 
-<pre>h1 a {
+<pre>h1 <b>a</b> {
   font-size: <b>14px</b>;
 }
 </pre>
@@ -1041,7 +1042,7 @@ h1 a {
 
 </pre>
 
-<pre>h1 a {
+<pre>h1 <b>a</b> {
   font-size: <b>0.46666667em</b>; /* 14px/30px */    
 }
 </pre>
@@ -1090,7 +1091,7 @@ h1 a {
 -->
 <div class="slide transparent " data-backgroundid="bg-15">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -1106,7 +1107,7 @@ h1 a {
 -->
 <div class="slide transparent image" data-backgroundid="bg-16">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -1163,7 +1164,7 @@ h1 a {
 -->
 <div class="slide transparent image" data-backgroundid="bg-rwd_demo_1">
   <div data-build>
-    <section data-auto style="position:absolute;bottom:0; right:0px; background:none">
+    <section data-auto style="position:absolute;bottom:-15px; left:220px; background:none">
       <a href="demo-1" target="_blank" style="position:relative; font-size:45px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
     </section>
   </div>
@@ -1242,29 +1243,6 @@ h1 a {
 
 
 
-<!--------------------------------------- Slide  -------------------------------------------------------
- *
- * Media queries: first query
- *
--->
-<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
-  <!--..................... NOTES ......................-->
-          <aside class="note"><section>
-                Когда @media отсутсвует и есть flexidle grid это сайт для любого разрешения
-
-          </section></aside>
-  <!--..................... SLIDE ......................-->
-  <section>
-    <header></header>
-
-      “The absence of a media queries in fact, the first media query”
-      <div class='author'>- Bryan Rieger, Rethinking the Mobile Web </div>
-      
-  </section>
-</div>
-
-
-
 
 
 <!--------------------------------------- Slide  -------------------------------------------------------
@@ -1293,6 +1271,29 @@ h1 a {
 
 
 
+<!--------------------------------------- Slide  -------------------------------------------------------
+ *
+ * Media queries: first query
+ *
+-->
+<div class="slide transparent centercontents slide-text" data-backgroundid="bg-01">
+  <!--..................... NOTES ......................-->
+          <aside class="note"><section>
+                Когда @media отсутсвует и есть flexidle grid это сайт для любого разрешения
+
+          </section></aside>
+  <!--..................... SLIDE ......................-->
+  <section>
+    <header></header>
+
+      “The absence of a media queries in fact, the first media query”
+      <div class='author'>- Bryan Rieger, Rethinking the Mobile Web </div>
+      
+  </section>
+</div>
+
+
+
 
 
 
@@ -1303,7 +1304,7 @@ h1 a {
 -->
 <div class="slide transparent image" data-backgroundid="bg-17">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -1337,14 +1338,14 @@ h1 a {
   float: left;
   width: 27.777777777778%; /* 250/900 */
 }
-
-<b>@media screen and (max-width: 480px)</b>{
+</pre> 
+<pre><b>@media screen and (max-width: 480px) {</b>
   .sidebar{
     float: none;
     width: 100%;
   }
   .adv { display: none; }
-}
+<b>}</b>
 
 </pre> 
        
@@ -1363,7 +1364,7 @@ h1 a {
 -->
 <div class="slide transparent image" data-backgroundid="bg-15">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -1380,7 +1381,7 @@ h1 a {
 <div class="slide transparent image" data-backgroundid="bg-16">
   
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -1398,7 +1399,7 @@ h1 a {
 -->
 <div class="slide transparent image" data-backgroundid="bg-21">
   <div data-build>
-    <section data-auto>
+    <section data-auto style="background:none">
     </section>
   </div>
 </div>
@@ -1424,13 +1425,15 @@ h1 a {
     <header>Popular Breakpoints</header>
 
 <pre> /* portrait phones */
-@media only screen and (max-width: 320px)  { .. }
+<b>@media only screen and (max-width: 320px)</b>  { .. }
 
 /* iPad and up */
-@media only screen and (min-width: 768px)  { .. }
+<b>@media only screen and (min-width: 768px)</b>  { .. }
 
 /* Desktop and up */
-@media only screen and (max-width: 1024px) { .. }
+<b>@media only screen and (max-width: 1024px)</b> { .. }
+
+
 </pre>
       • Order - from small to large screens <br>
       • Keep basic styles outside of media queries
@@ -1448,7 +1451,7 @@ h1 a {
 -->
 <div class="slide transparent image" data-backgroundid="bg-rwd_demo_2">
   <div data-build>
-    <section data-auto style="position:absolute;bottom:0; right:0px; background:none">
+    <section data-auto style="position:absolute;bottom:-15px; left:220px; background:none">
       <a href="demo" target="_blank" style="position:relative; font-size:45px;font-family:'Cabin Sketch';text-shadow: black 1px 2px 2px; color:white">¯\(°_o)/¯</a>
     </section>
   </div>
@@ -1668,10 +1671,10 @@ h1 a {
     <header>layout ≠ content</header>
       <span class="mark_green">CONTENT</span> <span class="mark_red">FIRST</span>
       <br>
-      1. Build your content<br>
-      2. Add semantic structure<br>
-      3. Add the presentation <br>
-      4. Add the behavior
+      <span class="mark_yellow">√</span> Build your content<br>
+      <span class="mark_green">√</span> Add semantic structure<br>
+      <span class="mark_blue">√</span> Add the presentation <br>
+      <span class="mark_red">√</span> Add the behavior
   </section>
 </div>
 
