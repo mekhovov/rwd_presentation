@@ -29,7 +29,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 GENERAL STYLING
 *************************************************************************************/
 body {
-	background: #0d1424 url(/images/body-bg.jpg) no-repeat center top;
+	background: #0d1424 url(../images/body-bg.jpg) no-repeat center top;
 	font: .81em/150% Arial, Helvetica, sans-serif;
 	color: #666;
 }
@@ -169,7 +169,7 @@ MAIN NAVIGATION
 	font-size: 14px;
 	z-index: 100;
 	/* gradient */
-	background: #6a6a6a url(/images/nav-bar-bg.png) repeat-x;
+	background: #6a6a6a url(../images/nav-bar-bg.png) repeat-x;
 	background: -webkit-gradient(linear, left top, left bottom, from(#b9b9b9), to(#6a6a6a));
 	background: -moz-linear-gradient(top,  #b9b9b9,  #6a6a6a);
 	background: linear-gradient(-90deg, #b9b9b9, #6a6a6a);
